@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1108" height="250">
+    <defs>
+        <style>
+            .cls-3,.cls-9{fill:#fff}.cls-4,.cls-6{font-size:16px}.cls-4{font-family:NotoSansCJKkr-Bold,Noto Sans CJK KR;font-weight:700}.cls-11,.cls-5{fill:none}.cls-5{stroke:#707070;stroke-width:2px}.cls-6{fill:#b3b3b3;font-family:NotoSansCJKkr-Medium,Noto Sans CJK KR;font-weight:500}.cls-7{opacity:.5}.cls-8{fill:transparent}.cls-9{opacity:.995}.cls-10{stroke:none}
+        </style>
+    </defs>
+    <g id="표" transform="translate(-46 -438)">
+        <rect id="사각형_2749" data-name="사각형 2749" width="1108" height="250" rx="4" transform="translate(46 438)" style="fill:#141414"/>
+        <g id="그룹_4447" data-name="그룹 4447" transform="translate(222 488)" style="opacity:.9">
+            <circle id="타원_354" data-name="타원 354" class="cls-3" cx="75" cy="75" r="75"/>
+            <text id="신고_접수" data-name="신고 접수" class="cls-4" transform="translate(75 82)"><tspan x="-31.256" y="0">신고 접수</tspan></text>
+        </g>
+        <g id="그룹_4448" data-name="그룹 4448" transform="translate(424 488)">
+            <g id="타원_354-2" data-name="타원 354" class="cls-5">
+                <circle class="cls-10" cx="75" cy="75" r="75"/>
+                <circle class="cls-11" cx="75" cy="75" r="74"/>
+            </g>
+            <text id="유해여부_판단" data-name="유해여부 판단" class="cls-6" transform="translate(75 82)"><tspan x="-45.96" y="0">유해여부 판단</tspan></text>
+        </g>
+        <g id="그룹_4449" data-name="그룹 4449" transform="translate(626 488)">
+            <g id="타원_354-3" data-name="타원 354" class="cls-5">
+                <circle class="cls-10" cx="75" cy="75" r="75"/>
+                <circle class="cls-11" cx="75" cy="75" r="74"/>
+            </g>
+            <text id="게시물_삭제" data-name="게시물 삭제" class="cls-6" transform="translate(75 82)"><tspan x="-38.6" y="0">게시물 삭제</tspan></text>
+        </g>
+        <g id="icon_share" class="cls-7" transform="rotate(90 -66.5 480.5)">
+            <path id="prefix__Area" class="cls-8" d="M0 0h32v32H0z"/>
+            <path id="icon_1.6" class="cls-9" d="M8.595 30.6a.8.8 0 0 1-.8-.8V2.714l-6.43 6.43A.8.8 0 0 1 .234 8.012L8.013.234A.8.8 0 0 1 8.578 0H8.6a.8.8 0 0 1 .3.06.8.8 0 0 1 .247.161l.01.01 7.773 7.778a.8.8 0 1 1-1.13 1.135L9.395 2.732V29.8a.8.8 0 0 1-.8.8z" transform="translate(7.443 .699)"/>
+        </g>
+        <g id="icon_share-2" data-name="icon_share" class="cls-7" transform="rotate(90 34.5 581.5)">
+            <path id="prefix__Area-2" data-name="prefix__Area" class="cls-8" d="M0 0h32v32H0z"/>
+            <path id="icon_1.6-2" data-name="icon_1.6" class="cls-9" d="M8.595 30.6a.8.8 0 0 1-.8-.8V2.714l-6.43 6.43A.8.8 0 0 1 .234 8.012L8.013.234A.8.8 0 0 1 8.578 0H8.6a.8.8 0 0 1 .3.06.8.8 0 0 1 .247.161l.01.01 7.773 7.778a.8.8 0 1 1-1.13 1.135L9.395 2.732V29.8a.8.8 0 0 1-.8.8z" transform="translate(7.443 .699)"/>
+        </g>
+        <g id="그룹_4450" data-name="그룹 4450" transform="translate(828 488)">
+            <circle id="타원_354-4" data-name="타원 354" class="cls-3" cx="75" cy="75" r="75"/>
+            <text id="아이디_규제" data-name="아이디 규제" class="cls-4" transform="translate(75 82)"><tspan x="-38.616" y="0">아이디 규제</tspan></text>
+        </g>
+        <g id="icon_share-3" data-name="icon_share" class="cls-7" transform="rotate(90 135.5 682.5)">
+            <path id="prefix__Area-3" data-name="prefix__Area" class="cls-8" d="M0 0h32v32H0z"/>
+            <path id="icon_1.6-3" data-name="icon_1.6" class="cls-9" d="M8.595 30.6a.8.8 0 0 1-.8-.8V2.714l-6.43 6.43A.8.8 0 0 1 .234 8.012L8.013.234A.8.8 0 0 1 8.578 0H8.6a.8.8 0 0 1 .3.06.8.8 0 0 1 .247.161l.01.01 7.773 7.778a.8.8 0 1 1-1.13 1.135L9.395 2.732V29.8a.8.8 0 0 1-.8.8z" transform="translate(7.443 .699)"/>
+        </g>
+    </g>
+</svg>

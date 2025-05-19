@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "tvnfont_bold";
+    src: url(./main_font/tvN_즐거운이야기_Bold.ttf);
+}
+
+@font-face {
+    font-family: "notosans_regular";
+    src: url(./main_font/NotoSansKR-Regular.otf);
+}
+
+@font-face {
+    font-family: "notosans_light";
+    src: url(./main_font/NotoSansKR-Light.otf);
+}
+@font-face {
+    font-family: "notosans_bold";
+    src: url(./main_font/NotoSansKR-Bold.otf);
+}
+
+p.start {
+    font-family: 'tvnfont_bold';
+    font-size: 100px;
+}
+
+.select_profile {
+    font-family: "notosans_bold";
+    font-size: 30px;
+}
+
+.select_what {
+    font-family: "notosans_light";
+    font-size: 15px;
+    color: rgb(189, 189, 189);
+}
+
+.contents {
+    font-family: "notasans_regular";
+}
+
+.depart {
+    font-size: 15px;
+    color: pink;
+}
+.part {
+    font-size: 15px;
+}
+
+p.named {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#edit-button {
+    font-size: 15px;
+}

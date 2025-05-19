@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1108" height="250">
+    <defs>
+        <style>
+            .cls-10,.cls-2{fill:#fff}.cls-3,.cls-5,.cls-7{font-size:16px}.cls-3{font-family:NotoSansCJKkr-Bold,Noto Sans CJK KR;font-weight:700}.cls-14,.cls-6{fill:none}.cls-6{stroke-width:2px}.cls-5,.cls-7{fill:#b3b3b3}.cls-5{font-family:NotoSansCJKkr-Regular,Noto Sans CJK KR}.cls-6{stroke:#707070}.cls-7{font-family:NotoSansCJKkr-Medium,Noto Sans CJK KR;font-weight:500}.cls-8{opacity:.5}.cls-9{fill:transparent}.cls-10{opacity:.995}.cls-13{stroke:none}
+        </style>
+    </defs>
+    <g id="표" transform="translate(-46 -438)">
+        <rect id="사각형_2749" data-name="사각형 2749" width="1108" height="250" rx="4" transform="translate(46 438)" style="fill:#141414"/>
+        <g id="BTN_편집" transform="translate(326 393)">
+            <rect id="사각형_2704" data-name="사각형 2704" class="cls-2" width="220" height="60" rx="4" transform="translate(533 100)"/>
+            <text id="접근제한_해제_게시글_복원" data-name="접근제한 해제 게시글 복원" class="cls-3" transform="translate(644 136)"><tspan x="-86.408" y="0">접근제한 해제 게시글 복원</tspan></text>
+        </g>
+        <g id="BTN_편집-2" data-name="BTN_편집" transform="translate(326 473)">
+            <g id="사각형_2704-2" data-name="사각형 2704" transform="translate(533 100)" style="stroke-width:2px;stroke:#4e4e4e;fill:none">
+                <rect class="cls-13" width="220" height="60" rx="4"/>
+                <rect class="cls-14" x="1" y="1" width="218" height="58" rx="3"/>
+            </g>
+            <text id="게시글_영구_삭제" data-name="게시글 영구 삭제" class="cls-5" transform="translate(645 136)"><tspan x="-55.104" y="0">게시글 영구 삭제</tspan></text>
+        </g>
+        <g id="그룹_4447" data-name="그룹 4447" transform="translate(-17 10)">
+            <circle id="타원_354" data-name="타원 354" class="cls-2" cx="75" cy="75" r="75" transform="translate(139 478)"/>
+            <text id="이의신청" class="cls-3" transform="translate(214 560)"><tspan x="-29.44" y="0">이의신청</tspan></text>
+        </g>
+        <g id="그룹_4448" data-name="그룹 4448" transform="translate(182 10)">
+            <g id="타원_354-2" data-name="타원 354" class="cls-6" transform="translate(142 478)">
+                <circle class="cls-13" cx="75" cy="75" r="75"/>
+                <circle class="cls-14" cx="75" cy="75" r="74"/>
+            </g>
+            <text id="소명자료_확인" data-name="소명자료 확인" class="cls-7" transform="translate(217 560)"><tspan x="-45.96" y="0">소명자료 확인</tspan></text>
+        </g>
+        <g id="그룹_4449" data-name="그룹 4449" transform="translate(388 10)">
+            <g id="타원_354-3" data-name="타원 354" class="cls-6" transform="translate(138 478)">
+                <circle class="cls-13" cx="75" cy="75" r="75"/>
+                <circle class="cls-14" cx="75" cy="75" r="74"/>
+            </g>
+            <text id="규제대상_게시물_및_커뮤니티_확인" data-name="규제대상 게시물 및 커뮤니티 확인" class="cls-7" transform="translate(213 548)"><tspan x="-53.32" y="0">규제대상 게시물</tspan><tspan x="-55.12" y="24">및 커뮤니티 확인</tspan></text>
+        </g>
+        <g id="icon_share" class="cls-8" transform="rotate(90 -116.5 430.5)">
+            <path id="prefix__Area" class="cls-9" d="M0 0h32v32H0z"/>
+            <path id="icon_1.6" class="cls-10" d="M12788.038-5732.2a.8.8 0 0 1-.8-.8v-27.086l-6.43 6.43a.8.8 0 0 1-1.131 0 .8.8 0 0 1-.234-.566.8.8 0 0 1 .234-.566l7.778-7.778a.8.8 0 0 1 .565-.234h.023a.8.8 0 0 1 .3.06.8.8 0 0 1 .247.161l.01.01 7.773 7.778a.8.8 0 0 1 .234.565.8.8 0 0 1-.234.566.8.8 0 0 1-1.131 0l-6.409-6.412V-5733a.8.8 0 0 1-.795.8z" transform="translate(-12772 5763.5)"/>
+        </g>
+        <g id="icon_share-2" data-name="icon_share" class="cls-8" transform="rotate(90 -15.5 531.5)">
+            <path id="prefix__Area-2" data-name="prefix__Area" class="cls-9" d="M0 0h32v32H0z"/>
+            <path id="icon_1.6-2" data-name="icon_1.6" class="cls-10" d="M12788.038-5732.2a.8.8 0 0 1-.8-.8v-27.086l-6.43 6.43a.8.8 0 0 1-1.131 0 .8.8 0 0 1-.234-.566.8.8 0 0 1 .234-.566l7.778-7.778a.8.8 0 0 1 .565-.234h.023a.8.8 0 0 1 .3.06.8.8 0 0 1 .247.161l.01.01 7.773 7.778a.8.8 0 0 1 .234.565.8.8 0 0 1-.234.566.8.8 0 0 1-1.131 0l-6.409-6.412V-5733a.8.8 0 0 1-.795.8z" transform="translate(-12772 5763.5)"/>
+        </g>
+        <g id="icon_share-3" data-name="icon_share" class="cls-8" transform="rotate(90 85 632)">
+            <path id="prefix__Area-3" data-name="prefix__Area" class="cls-9" d="M0 0h32v32H0z"/>
+            <g id="사각형_2747" data-name="사각형 2747" transform="translate(-20 -8)" style="stroke:#fff;stroke-width:1.6px;fill:none">
+                <rect class="cls-13" width="72" height="20" rx="6"/>
+                <rect class="cls-14" x=".8" y=".8" width="70.4" height="18.4" rx="5.2"/>
+            </g>
+            <g id="사각형_2748" data-name="사각형 2748" style="stroke:#141414;fill:#141414">
+                <path class="cls-13" d="M0 0h72v13H0z" transform="translate(-20 -10)"/>
+                <path class="cls-14" d="M.5.5h71v12H.5z" transform="translate(-20 -10)"/>
+            </g>
+            <path id="합치기_4" data-name="합치기 4" class="cls-2" d="M4658.55-824.5v-18.83a.8.8 0 0 1 .8-.8.8.8 0 0 1 .8.8v18.83a.8.8 0 0 1-.8.8.8.8 0 0 1-.8-.8zm35.15-24.431v-6.4a.8.8 0 0 1 .8-.8.8.8 0 0 1 .8.8v6.4a.8.8 0 0 1-.8.8.8.8 0 0 1-.8-.799zm-70.4 0v-6.4a.8.8 0 0 1 .8-.8.8.8 0 0 1 .8.8v6.4a.8.8 0 0 1-.8.8.8.8 0 0 1-.8-.799z" transform="translate(-4643.3 855)"/>
+        </g>
+        <text id="소명자료_부족" data-name="소명자료 부족" class="cls-5" transform="translate(771 604)"><tspan x="-45.952" y="0">소명자료 부족</tspan></text>
+        <text id="정당한_소명" data-name="정당한 소명" class="cls-5" transform="translate(764 534)"><tspan x="-38.592" y="0">정당한 소명</tspan></text>
+        <g id="icon_share-4" data-name="icon_share" class="cls-8" transform="rotate(90 168.5 680.5)">
+            <path id="prefix__Area-4" data-name="prefix__Area" class="cls-9" d="M0 0h32v32H0z"/>
+            <path id="icon_1.6-3" data-name="icon_1.6" class="cls-10" d="M12788.038-5723.2a.8.8 0 0 1-.8-.8v-36.086l-6.43 6.43a.8.8 0 0 1-1.131 0 .8.8 0 0 1-.234-.566.8.8 0 0 1 .234-.566l7.778-7.778a.8.8 0 0 1 .565-.234h.023a.8.8 0 0 1 .3.06.8.8 0 0 1 .247.161l.01.01 7.773 7.778a.8.8 0 0 1 .234.565.8.8 0 0 1-.234.566.8.8 0 0 1-1.131 0l-6.409-6.412V-5724a.8.8 0 0 1-.795.8z" transform="translate(-12772 5763.5)"/>
+        </g>
+        <g id="icon_share-5" data-name="icon_share" class="cls-8" transform="rotate(90 133.5 715.5)">
+            <path id="prefix__Area-5" data-name="prefix__Area" class="cls-9" d="M0 0h32v32H0z"/>
+            <path id="icon_1.6-4" data-name="icon_1.6" class="cls-10" d="M12788.038-5738.2a.8.8 0 0 1-.8-.8v-21.086l-6.43 6.43a.8.8 0 0 1-1.131 0 .8.8 0 0 1-.234-.566.8.8 0 0 1 .234-.566l7.778-7.778a.8.8 0 0 1 .565-.234h.023a.8.8 0 0 1 .3.06.8.8 0 0 1 .247.161l.01.01 7.773 7.778a.8.8 0 0 1 .234.565.8.8 0 0 1-.234.566.8.8 0 0 1-1.131 0l-6.409-6.412V-5739a.8.8 0 0 1-.795.8z" transform="translate(-12772 5763.5)"/>
+        </g>
+    </g>
+</svg>

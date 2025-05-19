@@ -1,0 +1,20 @@
+var _path;
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+import * as React from "react";
+
+function SvgIconArrowDown(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 28,
+    height: 28,
+    viewBox: "0 0 28 28"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    fill: "#fff",
+    opacity: 0.64,
+    d: "M10.468 14.126a.666.666 0 01.943-.942l4.24 4.239 4.242-4.243a.666.666 0 11.942.942l-4.715 4.715a.667.667 0 01-.94 0z"
+  })));
+}
+
+export default SvgIconArrowDown;

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20.5" height="20" viewBox="0 0 20.5 20">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-4{fill:gray}.cls-5{stroke:none}
+        </style>
+    </defs>
+    <g id="icon_회원정보수정" transform="translate(-1047.5 -136)">
+        <path id="사각형_2708" d="M0 0H20V20H0z" class="cls-1" transform="translate(1048 136)"/>
+        <g id="그룹_4409" transform="translate(127 -9.5)">
+            <g id="타원_342" fill="none" stroke="gray" stroke-width="2px" transform="translate(922 150.026)">
+                <circle cx="6.5" cy="6.5" r="6.5" class="cls-5"/>
+                <circle cx="6.5" cy="6.5" r="5.5" class="cls-1"/>
+            </g>
+            <g id="타원_342-2" fill="gray" stroke="gray" stroke-width="2px" transform="translate(926.8 154.8)">
+                <circle cx="1.7" cy="1.7" r="1.7" class="cls-5"/>
+                <circle cx="1.7" cy="1.7" r=".7" class="cls-1"/>
+            </g>
+            <rect id="사각형_2718" width="2.828" height="2.828" class="cls-4" rx="1.2" transform="translate(927.099 148.5)"/>
+            <rect id="사각형_2720" width="2.828" height="2.828" class="cls-4" rx="1.2" transform="translate(920.5 155.099)"/>
+            <rect id="사각형_2721" width="2.828" height="2.828" class="cls-4" rx="1.2" transform="translate(933.698 155.099)"/>
+            <rect id="사각형_2722" width="2.828" height="2.828" class="cls-4" rx="1.2" transform="translate(933.5 149.8) rotate(45)"/>
+            <rect id="사각형_2723" width="2.828" height="2.828" class="cls-4" rx="1.2" transform="translate(923.685 159.227) rotate(45)"/>
+            <rect id="사각형_2724" width="2.828" height="2.828" class="cls-4" rx="1.2" transform="translate(933.5 159.2) rotate(45)"/>
+            <rect id="사각형_2725" width="2.828" height="2.828" class="cls-4" rx="1.2" transform="translate(923.685 149.8) rotate(45)"/>
+            <rect id="사각형_2719" width="2.828" height="2.828" class="cls-4" rx="1.2" transform="translate(927.099 161.698)"/>
+        </g>
+    </g>
+</svg>

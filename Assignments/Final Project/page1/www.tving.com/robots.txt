@@ -1,0 +1,6 @@
+# robots.txt for https://www.tving.com/
+
+User-agent: *
+Allow: /
+
+# Sitemap: https://www.tving.com/sitemap.xml

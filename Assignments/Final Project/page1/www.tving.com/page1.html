@@ -1,0 +1,2610 @@
+<!DOCTYPE html>
+<html lang="ko" class="is-laptop" style="--scrollbar-width:17px;">
+
+<head>
+    <link href="티빙아이콘.png" rel="shortcut icon" type="image/x-icon">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script async="" src="https://www.google-analytics.com/analytics.js"></script>
+    <script async="" src="https://www.google-analytics.com/analytics.js"></script>
+    <script async="" src="./js/analytics.js"></script>
+    <script type="application/javascript" src="./js/ie11toEdge.js"></script>
+    <meta name="naver-site-verification" content="8679cb22ec6174d8425b81da2de167a93b030e21">
+    <meta name="google-site-verification" content="dBwS2zOYsVFXyK3mI3v0DOw7W8dAJYiy2btCLOZ8-Us">
+    <link rel="stylesheet" href="./css/typography.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <script type="application/javascript" src="./js/context-filter-polyfill.js"></script>
+    <script type="application/javascript" src="./js/conviva-core-sdk.js"></script>
+    <script type="application/javascript" src="./js/conviva-html5native-impl.js"></script>
+
+
+
+    <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, user-scalable=no, viewport-fit=cover">
+    <title>TVING</title>
+
+    <meta name="author" content="TVING">
+    <meta name="description" content="티빙 오리지널 콘텐츠, 방송, 영화, 해외시리즈까지! 재미를 플레이해보세요.">
+    <meta name="keywords" content="">
+    <meta property="fb:app_id" content="167597706623778">
+    <meta property="og:site_name" content="TVING">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="TVING">
+    <meta property="og:description" content="티빙 오리지널 콘텐츠, 방송, 영화, 해외시리즈까지! 재미를 플레이해보세요.">
+
+    <meta property="og:image:width" content="800">
+    <meta property="og:image:height" content="400">
+    <meta property="og:url" content="main.html">
+    <meta property="og:locale" content="ko_KR">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="TVING">
+    <meta name="twitter:url" content="main.html">
+    <meta name="twitter:description" content="티빙 오리지널 콘텐츠, 방송, 영화, 해외시리즈까지! 재미를 플레이해보세요.">
+
+    <meta property="og:image" content="/img/tving_logo_meta.png">
+    <meta name="twitter:image" content="/img/tving_logo_meta.png">
+    <meta charset="utf-8">
+    <!-- <link rel="icon" href="./favicon.ico"> -->
+    <link rel="canonical" href="main.html">
+    <link rel="alternate" href="main.html">
+    <meta name="next-head-count" content="24">
+    <link rel="preload" href="./css/b45bf4d486d3274c76ee.css" as="style">
+    <link rel="stylesheet" href="./css/b45bf4d486d3274c76ee.css" data-n-g=""><noscript data-n-css=""></noscript>
+    <script defer="" nomodule="" src="./js/polyfills-a40ef1678bae11e696dba45124eadd70.js"></script>
+    <script src="./js/webpack-6db3d10cbd90b21b97b0.js" defer=""></script>
+    <script src="./js/framework-366809f736a016c2d436.js" defer=""></script>
+    <script src="./js/main-75119c7c0370014b3205.js" defer=""></script>
+    <script src="./js/_app-7d20078cfdb8d2489042.js" defer=""></script>
+    <script src="./js/onboarding-7f14a22bb563a8941a5e.js" defer=""></script>
+    <script src="./js/_buildManifest.js" defer=""></script>
+    <script src="./js/_ssgManifest.js" defer=""></script>
+    <style id="__jsx-288906432">
+        #nprogress {
+            pointer-events: none;
+        }
+
+        #nprogress .bar {
+            background: #ff153c;
+            position: fixed;
+            z-index: 9999;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+        }
+
+        #nprogress .peg {
+            display: block;
+            position: absolute;
+            right: 0px;
+            width: 100px;
+            height: 100%;
+            box-shadow: 0 0 10px #ff153c, 0 0 5px #ff153c;
+            opacity: 1;
+            -webkit-transform: rotate(3deg) translate(0px, -4px);
+            -ms-transform: rotate(3deg) translate(0px, -4px);
+            -webkit-transform: rotate(3deg) translate(0px, -4px);
+            -ms-transform: rotate(3deg) translate(0px, -4px);
+            transform: rotate(3deg) translate(0px, -4px);
+        }
+
+        #nprogress .spinner {
+            display: block;
+            position: fixed;
+            z-index: 1031;
+            top: 15px;
+            right: 15px;
+        }
+
+        #nprogress .spinner-icon {
+            width: 18px;
+            height: 18px;
+            box-sizing: border-box;
+            border: solid 2px transparent;
+            border-top-color: #ff153c;
+            border-left-color: #ff153c;
+            border-radius: 50%;
+            -webkit-animation: nprogresss-spinner 400ms linear infinite;
+            -webkit-animation: nprogress-spinner 400ms linear infinite;
+            animation: nprogress-spinner 400ms linear infinite;
+        }
+
+        .nprogress-custom-parent {
+            overflow: hidden;
+            position: relative;
+        }
+
+        .nprogress-custom-parent #nprogress .spinner,
+        .nprogress-custom-parent #nprogress .bar {
+            position: absolute;
+        }
+
+        @-webkit-keyframes nprogress-spinner {
+            0% {
+                -webkit-transform: rotate(0deg);
+            }
+
+            100% {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+
+        @-webkit-keyframes nprogress-spinner {
+            0% {
+                -webkit-transform: rotate(0deg);
+                -ms-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+
+            100% {
+                -webkit-transform: rotate(360deg);
+                -ms-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes nprogress-spinner {
+            0% {
+                -webkit-transform: rotate(0deg);
+                -ms-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+
+            100% {
+                -webkit-transform: rotate(360deg);
+                -ms-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+
+    <style data-emotion="css" data-s=""></style>
+    <link as="script" rel="prefetch" href="./_next/static/chunks/9345-0fc993d09c6d5c33a3a9.js">
+    <link as="script" rel="prefetch" href="./_next/static/chunks/pages/index-07127de533895725028f.js">
+
+    <style data-emotion="css" data-s=""></style>
+    <style data-emotion="css " data-s=""></style>
+    <style data-emotion="css ns5fym" data-s="">
+        .css-ns5fym {
+            position: fixed;
+            top: 0;
+            z-index: 200;
+            left: 0;
+            right: 0;
+            width: calc(100vw - var(--scrollbar-width));
+            height: 5rem;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: start;
+            -ms-flex-pack: start;
+            -webkit-justify-content: flex-start;
+            justify-content: flex-start;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            box-sizing: border-box;
+            top: 0;
+            background-image: initial;
+        }
+
+        @media (min-width: 768px) {
+            .css-ns5fym {
+                height: 5.833rem;
+            }
+        }
+
+        .css-ns5fym:before {
+            content: '';
+            position: absolute;
+            z-index: -1;
+            top: -1px;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            -webkit-transform: translate3d(0, 0, 0);
+            -moz-transform: translate3d(0, 0, 0);
+            -ms-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+            -webkit-backdrop-filter: blur(0px);
+            backdrop-filter: blur(0px);
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+            color: rgba(255, 255, 255, 1);
+            -webkit-transition: backdrop-filter 0.3s linear, background-color 0.3s linear;
+            transition: backdrop-filter 0.3s linear, background-color 0.3s linear;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .css-ns5fym>a {
+            margin-right: 2.333rem;
+            color: rgba(255, 255, 255, 1);
+            opacity: 0.87;
+            font-size: 1.333rem;
+            -webkit-transform: translate3d(0, 0, 0);
+            -moz-transform: translate3d(0, 0, 0);
+            -ms-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+            -webkit-transition: opacity 0.1s;
+            transition: opacity 0.1s;
+        }
+
+        .css-ns5fym>a:first-of-type {
+            display: block;
+            margin: 0;
+            height: 100%;
+            margin: 0 3.083rem 0 0;
+            opacity: 1;
+        }
+
+        .css-ns5fym>a.other {
+            opacity: 0.7;
+        }
+
+        .css-ns5fym>a:hover {
+            opacity: 1;
+        }
+
+        .css-ns5fym>a.on {
+            font-weight: 700;
+            opacity: 1;
+        }
+
+        .css-ns5fym>a.on .live:before {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cdefs%3E%3Cstyle%3E .cls-1,.cls-6%7Bfill:none%7D.cls-2,.cls-6%7Bstroke:%23fff;stroke-linejoin:round%7D.cls-2%7Bfill:%23fff;stroke-width:.6px%7D.cls-6%7Bstroke-linecap:round;stroke-width:1.8px%7D %3C/style%3E%3C/defs%3E%3Cg id='icon_menu_live' transform='translate(2 2.393)'%3E%3Cpath id='area' class='cls-1' transform='translate(-2 -2.393)' d='M0 0h24v24H0z'/%3E%3Cg id='icon' transform='translate(-2 .58)'%3E%3Cg id='LIVE' transform='translate(4.6 8.423)'%3E%3Cpath id='패스_1422' data-name='패스 1422' class='cls-2' d='M900.019 37.073h-3.165v-5.1h.792v4.413h2.374z' transform='translate(-896.854 -31.974)'/%3E%3Cpath id='패스_1423' data-name='패스 1423' class='cls-2' d='M900.752 37.073v-5.1h.792v5.1z' transform='translate(-896.54 -31.974)'/%3E%3Cpath id='패스_1424' data-name='패스 1424' class='cls-2' d='m904.117 37.073-1.819-5.1h.859l1.388 4.208h.022l1.392-4.208h.845l-1.82 5.1z' transform='translate(-896.249 -31.974)'/%3E%3Cpath id='패스_1425' data-name='패스 1425' class='cls-2' d='M910.574 37.073h-3.236v-5.1h3.236v.682h-2.444v1.491h2.314v.654h-2.314v1.583h2.444z' transform='translate(-895.737 -31.974)'/%3E%3C/g%3E%3Cg id='TV' style='opacity:.997'%3E%3Cg id='사각형_2321' data-name='사각형 2321' transform='translate(0 3.025)' style='opacity:.998;stroke-linecap:round;stroke-width:1.8px;stroke:%23fff;stroke-linejoin:round;fill:none'%3E%3Crect width='24' height='16' rx='3' style='stroke:none'/%3E%3Crect class='cls-1' x='.9' y='.9' width='22.2' height='14.2' rx='2.1'/%3E%3C/g%3E%3Cg id='antennae' transform='translate(8.671 .527)' style='opacity:.998'%3E%3Cpath id='선_34' data-name='선 34' class='cls-6' transform='translate(-.471)' d='M3.055 3 0 0'/%3E%3Cpath id='선_35' data-name='선 35' class='cls-6' transform='translate(4.024)' d='m0 3 3.055-3'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+        }
+
+        .css-ns5fym .live {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+        }
+
+        .css-ns5fym .live::before {
+            content: '';
+            display: inline-block;
+            position: relative;
+            top: 0px;
+            margin-right: 0.417rem;
+            width: 2rem;
+            height: 2rem;
+            background-image: url('./img/icon_menu_live.svg');
+            background-repeat: no-repeat;
+            -webkit-background-size: contain;
+            background-size: contain;
+        }
+    </style>
+    <style data-emotion="css k3xc" data-s="">
+        .css-k3xc {
+            width: 7.333rem;
+            height: 100%;
+            background-repeat: no-repeat;
+            -webkit-background-position: 0 50%;
+            background-position: 0 50%;
+            -webkit-background-size: 100% auto;
+            background-size: 100% auto;
+            font-size: 1rem;
+            text-indent: -9999px;
+            background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 432.25 97.53'%3E%3Cpath fill='%23fff' d='M200.3 0h30.84v97.53H200.3zM76.05 0H0v29.91h29.86v67.51h31.73V29.91h29.94L81.8 4a6.17 6.17 0 00-5.75-4zm226.2 45.07l-33.1-42.15a7.62 7.62 0 00-6-2.92h-19.28v97.52h30.58V52.43l33.06 42.16a7.62 7.62 0 006 2.93h19.3V0h-30.56zm-141.62-41l-17.85 49.78L125 4.08A6.16 6.16 0 00119.22 0H89.65l37.53 97.52h31.19L195.92 0h-29.5a6.18 6.18 0 00-5.79 4.07zM431.5 42.42h-34.63v28.2h-20.4V27.93H416a8.28 8.28 0 007.72-5.35L432.25 0h-86.62v97.53h85.87z'/%3E%3C/svg%3E");
+        }
+
+        @media (max-width: 767px) {
+            .css-k3xc {
+                width: 6.216rem;
+            }
+        }
+    </style>
+    <style data-emotion="css 1jodgij" data-s="">
+        .css-1jodgij {
+            margin-top: 5rem;
+        }
+
+        @media (min-width: 768px) {
+            .css-1jodgij {
+                margin-top: 5.833rem;
+            }
+        }
+    </style>
+    <style data-emotion="css c4fi75" data-s="">
+        .css-c4fi75 {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            width: 33.33vw;
+            min-height: auto;
+            max-height: auto;
+            z-index: 99999;
+            font-size: 12px;
+        }
+
+        @media (max-width: 767px) {
+            .css-c4fi75 {
+                width: 50%;
+                min-width: 300px;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .css-c4fi75 {
+                width: 40%;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .css-c4fi75 {
+                width: 33.33vw;
+            }
+        }
+
+        .css-c4fi75:before {
+            content: '';
+            display: block;
+            padding-top: 56.25%;
+            float: left;
+            box-sizing: inherit;
+        }
+
+        .css-c4fi75:after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+    </style>
+    <style data-emotion="css 15lsyhj" data-s="">
+        .css-15lsyhj {
+            position: relative;
+            max-height: auto;
+            height: auto;
+            margin-top: 0em;
+            z-index: 10;
+            display: none;
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            width: 33.33vw;
+            min-height: auto;
+            max-height: auto;
+            z-index: 99999;
+            font-size: 12px;
+        }
+
+        .css-15lsyhj button {
+            outline: 0;
+        }
+
+        .css-15lsyhj .player {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            background-color: #000;
+            outline: 0;
+        }
+
+        .css-15lsyhj .player>div.pp {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .css-15lsyhj .player>div.test-over {
+            position: absolute;
+            top: 1em;
+            right: 1em;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-flex-wrap: wrap;
+            -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            z-index: 10;
+        }
+
+        .css-15lsyhj>span {
+            width: 30%;
+            padding: 1em;
+            word-break: break-all;
+            font-size: 10px;
+        }
+
+        .css-15lsyhj #test {
+            position: absolute;
+            width: 100%;
+        }
+
+        .css-15lsyhj #test .player-wrap {
+            position: absolute;
+        }
+
+        .css-15lsyhj #test .player-wrap>div>div {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+
+        .css-15lsyhj #test .player-wrap>div>div>div {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: stretch;
+            -ms-flex-pack: stretch;
+            -webkit-justify-content: stretch;
+            justify-content: stretch;
+            -webkit-align-items: stretch;
+            -webkit-box-align: stretch;
+            -ms-flex-align: stretch;
+            align-items: stretch;
+        }
+
+        .css-15lsyhj #test .player-wrap+div {
+            display: none;
+        }
+
+        .css-15lsyhj #test .content {
+            display: none;
+        }
+
+        @media (max-width: 767px) {
+            .css-15lsyhj {
+                width: 50%;
+                min-width: 300px;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .css-15lsyhj {
+                width: 40%;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .css-15lsyhj {
+                width: 33.33vw;
+            }
+        }
+
+        .css-15lsyhj:before {
+            content: '';
+            display: block;
+            padding-top: 56.25%;
+            float: left;
+            box-sizing: inherit;
+        }
+
+        .css-15lsyhj:after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+    </style>
+    <style data-emotion="css 1n5b6s6" data-s="">
+        .css-1n5b6s6 {
+            position: relative;
+            top: -5rem;
+        }
+
+        @media (min-width: 768px) {
+            .css-1n5b6s6 {
+                top: -5.833rem;
+            }
+        }
+    </style>
+    <style data-emotion="css a1gq0t animation-82b54b" data-s="">
+        .css-a1gq0t {
+            width: 100%;
+            height: 85vh;
+            max-height: 50rem;
+            background-image: url('./img/moweb-img-gradation.png'), url('./img/moweb-img@2x.jpg');
+            -webkit-background-size: cover;
+            background-size: cover;
+            background-repeat: no-repeat, no-repeat;
+            -webkit-background-position: bottom, top;
+            background-position: bottom, top;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            margin-top: 3.667rem;
+            -webkit-animation: animation-82b54b 1.2s 0.1s forwards;
+            animation: animation-82b54b 1.2s 0.1s forwards;
+        }
+
+        .is-laptop .css-a1gq0t {
+            margin-top: 0;
+        }
+
+        @media (min-width: 500px) {
+            .css-a1gq0t {
+                height: 95vh;
+                max-height: 68vw;
+                background-image: url('./img/pc-img-gradatrion2.png'), url('./img/pc-img@2x.jpg');
+                -webkit-background-position: bottom, bottom;
+                background-position: bottom, bottom;
+                margin-top: 0;
+            }
+        }
+
+        @media (min-width: 1600px) {
+            .css-a1gq0t {
+                max-height: 68rem;
+            }
+        }
+
+        @-webkit-keyframes animation-82b54b {
+            0% {
+                opacity: 0;
+                -webkit-transform: translate3d(0, 120px, 0);
+                -moz-transform: translate3d(0, 120px, 0);
+                -ms-transform: translate3d(0, 120px, 0);
+                transform: translate3d(0, 120px, 0);
+            }
+
+            100% {
+                opacity: 1;
+                -webkit-transform: translate3d(0, 0, 0);
+                -moz-transform: translate3d(0, 0, 0);
+                -ms-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
+            }
+        }
+
+        @keyframes animation-82b54b {
+            0% {
+                opacity: 0;
+                -webkit-transform: translate3d(0, 120px, 0);
+                -moz-transform: translate3d(0, 120px, 0);
+                -ms-transform: translate3d(0, 120px, 0);
+                transform: translate3d(0, 120px, 0);
+            }
+
+            100% {
+                opacity: 1;
+                -webkit-transform: translate3d(0, 0, 0);
+                -moz-transform: translate3d(0, 0, 0);
+                -ms-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
+            }
+        }
+    </style>
+    <style data-emotion="css 1orpbgm" data-s="">
+        .css-1orpbgm {
+            text-align: center;
+            margin-top: -1.5rem;
+        }
+
+        @media (orientation: landscape) and (max-width: 900px) {
+            .css-1orpbgm {
+                margin-top: 4rem;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .css-1orpbgm {
+                margin-top: -1.9rem;
+            }
+        }
+    </style>
+    <style data-emotion="css 1lg8zm7 animation-10cuzi3" data-s="">
+        .css-1lg8zm7 {
+            color: #fff;
+            font-size: 2rem;
+            font-weight: bold;
+            line-height: 1.33;
+            opacity: 0;
+            -webkit-animation: animation-10cuzi3 1.5s 0.2s forwards;
+            animation: animation-10cuzi3 1.5s 0.2s forwards;
+        }
+
+        @media (min-width: 1200px) {
+            .css-1lg8zm7 {
+                font-size: 3rem;
+                line-height: 4.25rem;
+            }
+        }
+
+        @-webkit-keyframes animation-10cuzi3 {
+            0% {
+                opacity: 0;
+                -webkit-transform: translateY(60px);
+                -moz-transform: translateY(60px);
+                -ms-transform: translateY(60px);
+                transform: translateY(60px);
+            }
+
+            100% {
+                opacity: 1;
+                -webkit-transform: translateY(0);
+                -moz-transform: translateY(0);
+                -ms-transform: translateY(0);
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes animation-10cuzi3 {
+            0% {
+                opacity: 0;
+                -webkit-transform: translateY(60px);
+                -moz-transform: translateY(60px);
+                -ms-transform: translateY(60px);
+                transform: translateY(60px);
+            }
+
+            100% {
+                opacity: 1;
+                -webkit-transform: translateY(0);
+                -moz-transform: translateY(0);
+                -ms-transform: translateY(0);
+                transform: translateY(0);
+            }
+        }
+    </style>
+    <style data-emotion="css 1da1wu1 animation-10cuzi3" data-s="">
+        .css-1da1wu1 {
+            color: #fff;
+            font-size: 2rem;
+            font-weight: bold;
+            line-height: 1.33;
+            opacity: 0;
+            -webkit-animation: animation-10cuzi3 1.5s 0.25s forwards;
+            animation: animation-10cuzi3 1.5s 0.25s forwards;
+        }
+
+        @media (min-width: 1200px) {
+            .css-1da1wu1 {
+                font-size: 3rem;
+                line-height: 4.25rem;
+            }
+        }
+
+        @-webkit-keyframes animation-10cuzi3 {
+            0% {
+                opacity: 0;
+                -webkit-transform: translateY(60px);
+                -moz-transform: translateY(60px);
+                -ms-transform: translateY(60px);
+                transform: translateY(60px);
+            }
+
+            100% {
+                opacity: 1;
+                -webkit-transform: translateY(0);
+                -moz-transform: translateY(0);
+                -ms-transform: translateY(0);
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes animation-10cuzi3 {
+            0% {
+                opacity: 0;
+                -webkit-transform: translateY(60px);
+                -moz-transform: translateY(60px);
+                -ms-transform: translateY(60px);
+                transform: translateY(60px);
+            }
+
+            100% {
+                opacity: 1;
+                -webkit-transform: translateY(0);
+                -moz-transform: translateY(0);
+                -ms-transform: translateY(0);
+                transform: translateY(0);
+            }
+        }
+    </style>
+    <style data-emotion="css z4df8f animation-10cuzi3" data-s="">
+        .css-z4df8f {
+            color: #fff;
+            font-size: 2rem;
+            font-weight: bold;
+            line-height: 1.33;
+            opacity: 0;
+            -webkit-animation: animation-10cuzi3 1.5s 0.3s forwards;
+            animation: animation-10cuzi3 1.5s 0.3s forwards;
+        }
+
+        @media (min-width: 1200px) {
+            .css-z4df8f {
+                font-size: 3rem;
+                line-height: 4.25rem;
+            }
+        }
+
+        @-webkit-keyframes animation-10cuzi3 {
+            0% {
+                opacity: 0;
+                -webkit-transform: translateY(60px);
+                -moz-transform: translateY(60px);
+                -ms-transform: translateY(60px);
+                transform: translateY(60px);
+            }
+
+            100% {
+                opacity: 1;
+                -webkit-transform: translateY(0);
+                -moz-transform: translateY(0);
+                -ms-transform: translateY(0);
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes animation-10cuzi3 {
+            0% {
+                opacity: 0;
+                -webkit-transform: translateY(60px);
+                -moz-transform: translateY(60px);
+                -ms-transform: translateY(60px);
+                transform: translateY(60px);
+            }
+
+            100% {
+                opacity: 1;
+                -webkit-transform: translateY(0);
+                -moz-transform: translateY(0);
+                -ms-transform: translateY(0);
+                transform: translateY(0);
+            }
+        }
+    </style>
+    <style data-emotion="css 17elym1 animation-10cuzi3" data-s="">
+        .css-17elym1 {
+            margin-top: 0.667rem;
+            color: #a3a3a3;
+            font-size: 1.167rem;
+            line-height: 1.29;
+            opacity: 0;
+            -webkit-animation: animation-10cuzi3 1.5s 0.35s forwards;
+            animation: animation-10cuzi3 1.5s 0.35s forwards;
+        }
+
+        @media (min-width: 1200px) {
+            .css-17elym1 {
+                margin-top: 1rem;
+                font-size: 1.667rem;
+            }
+        }
+
+        @-webkit-keyframes animation-10cuzi3 {
+            0% {
+                opacity: 0;
+                -webkit-transform: translateY(60px);
+                -moz-transform: translateY(60px);
+                -ms-transform: translateY(60px);
+                transform: translateY(60px);
+            }
+
+            100% {
+                opacity: 1;
+                -webkit-transform: translateY(0);
+                -moz-transform: translateY(0);
+                -ms-transform: translateY(0);
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes animation-10cuzi3 {
+            0% {
+                opacity: 0;
+                -webkit-transform: translateY(60px);
+                -moz-transform: translateY(60px);
+                -ms-transform: translateY(60px);
+                transform: translateY(60px);
+            }
+
+            100% {
+                opacity: 1;
+                -webkit-transform: translateY(0);
+                -moz-transform: translateY(0);
+                -ms-transform: translateY(0);
+                transform: translateY(0);
+            }
+        }
+    </style>
+    <style data-emotion="css 1tu6dos animation-10cuzi3" data-s="">
+        .css-1tu6dos {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            width: 22.5rem;
+            height: 4.083rem;
+            font-size: 1.333rem;
+            margin: 2.8rem auto 0;
+            font-weight: bold;
+            color: #fff;
+            background-color: #ff153c;
+            border-radius: 4px;
+            opacity: 0;
+            -webkit-animation: animation-10cuzi3 1.5s 0.4s forwards;
+            animation: animation-10cuzi3 1.5s 0.4s forwards;
+        }
+
+        @media (min-width: 1200px) {
+            .css-1tu6dos {
+                font-size: 1.5rem;
+                width: 28.667rem;
+                height: 4.667rem;
+                margin: 3.333rem auto 0;
+            }
+        }
+
+        @-webkit-keyframes animation-10cuzi3 {
+            0% {
+                opacity: 0;
+                -webkit-transform: translateY(60px);
+                -moz-transform: translateY(60px);
+                -ms-transform: translateY(60px);
+                transform: translateY(60px);
+            }
+
+            100% {
+                opacity: 1;
+                -webkit-transform: translateY(0);
+                -moz-transform: translateY(0);
+                -ms-transform: translateY(0);
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes animation-10cuzi3 {
+            0% {
+                opacity: 0;
+                -webkit-transform: translateY(60px);
+                -moz-transform: translateY(60px);
+                -ms-transform: translateY(60px);
+                transform: translateY(60px);
+            }
+
+            100% {
+                opacity: 1;
+                -webkit-transform: translateY(0);
+                -moz-transform: translateY(0);
+                -ms-transform: translateY(0);
+                transform: translateY(0);
+            }
+        }
+    </style>
+    <style data-emotion="css 1hkaz2s" data-s="">
+        .css-1hkaz2s {
+            position: relative;
+            height: 360vh;
+            position: -webkit-sticky;
+            position: sticky;
+            top: 5rem;
+        }
+
+        @media (min-width: 375px) {
+            .css-1hkaz2s {
+                height: 360vh;
+            }
+        }
+
+        .is-mobile .css-1hkaz2s {
+            height: 400vh;
+        }
+
+        @media (min-width: 768px) {
+            .css-1hkaz2s {
+                top: 5.833rem;
+            }
+        }
+
+        .css-1hkaz2s.fixed .message-title {
+            padding-top: 0;
+        }
+    </style>
+    <style data-emotion="css f0wymm" data-s="">
+        .css-f0wymm {
+            padding-top: 4rem;
+        }
+
+        @media (min-width: 1200px) {
+            .css-f0wymm {
+                padding-top: 8.333rem;
+            }
+        }
+
+        @media (orientation: landscape) and (min-width: 400px) and (max-width: 900px) {
+            .css-f0wymm {
+                padding-top: 0;
+            }
+        }
+    </style>
+    <style data-emotion="css 31fi7l" data-s="">
+        .css-31fi7l {
+            opacity: 0;
+            white-space: nowrap;
+            -webkit-transition: opacity 0.5s ease-out, -webkit-transform 0.5s ease-out;
+            transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+            -webkit-transform: translateY(0rem);
+            -moz-transform: translateY(0rem);
+            -ms-transform: translateY(0rem);
+            transform: translateY(0rem);
+            padding-top: 4rem;
+        }
+
+        .css-31fi7l p {
+            opacity: 0;
+            -webkit-transition: opacity 0.3s ease-out, -webkit-transform 0.3s ease-out;
+            transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+            -webkit-transform: translateY(3rem);
+            -moz-transform: translateY(3rem);
+            -ms-transform: translateY(3rem);
+            transform: translateY(3rem);
+        }
+
+        .in .css-31fi7l {
+            opacity: 1;
+            -webkit-transform: translateY(0rem);
+            -moz-transform: translateY(0rem);
+            -ms-transform: translateY(0rem);
+            transform: translateY(0rem);
+        }
+
+        .in .css-31fi7l p {
+            opacity: 1;
+            -webkit-transition: opacity 0.7s ease-out, -webkit-transform 0.7s ease-out;
+            transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+            -webkit-transform: translateY(0rem);
+            -moz-transform: translateY(0rem);
+            -ms-transform: translateY(0rem);
+            transform: translateY(0rem);
+        }
+
+        .in .css-31fi7l p:nth-of-type(1) {
+            transition-delay: 0.2s;
+        }
+
+        .in .css-31fi7l p:nth-of-type(2) {
+            transition-delay: 0.5s;
+        }
+
+        .in .css-31fi7l p:nth-of-type(3) {
+            transition-delay: 0.7s;
+        }
+
+        .in .css-31fi7l p:nth-of-type(4) {
+            transition-delay: 0.8s;
+        }
+
+        .in .css-31fi7l p:nth-of-type(5) {
+            transition-delay: 0.9s;
+        }
+
+        @media (min-width: 1200px) {
+            .css-31fi7l {
+                padding-top: 8.333rem;
+            }
+        }
+
+        @media (orientation: landscape) and (min-width: 400px) and (max-width: 900px) {
+            .css-31fi7l {
+                padding-top: 0;
+            }
+        }
+    </style>
+    <style data-emotion="css 16hdlwe" data-s="">
+        .css-16hdlwe {
+            font-size: 2.833rem;
+            font-weight: bold;
+            line-height: 1.35;
+            text-align: center;
+            color: #fff;
+        }
+
+        @media (min-width: 1200px) {
+            .css-16hdlwe {
+                font-size: 3.25rem;
+                line-height: 1;
+            }
+        }
+    </style>
+    <style data-emotion="css auk98b" data-s="">
+        .css-auk98b {
+            font-size: 1.667rem;
+            font-weight: normal;
+            text-align: center;
+            color: #dedede;
+            margin-top: 0.5rem;
+        }
+
+        @media (min-width: 1200px) {
+            .css-auk98b {
+                font-size: 1.833rem;
+                margin-top: 1.667rem;
+                font-weight: 500;
+            }
+        }
+    </style>
+    <style data-emotion="css xv94ka" data-s="">
+        .css-xv94ka {
+            font-size: 1.167rem;
+            font-weight: normal;
+            text-align: center;
+            color: #a3a3a3;
+            margin-top: 0.833rem;
+        }
+
+        @media (min-width: 1200px) {
+            .css-xv94ka {
+                font-size: 1.417rem;
+                opacity: 0.64;
+                margin-top: 0.667rem;
+            }
+        }
+    </style>
+    <style data-emotion="css d3iq8i" data-s="">
+        .css-d3iq8i {
+            position: relative;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            margin-top: 3.833rem;
+            overflow: hidden;
+        }
+
+        @media (min-width: 1200px) {
+            .css-d3iq8i {
+                margin-top: 4.167rem;
+            }
+        }
+
+        @media (orientation: landscape) and (max-width: 1023px) {
+            .css-d3iq8i {
+                margin-top: 1.667rem;
+            }
+        }
+    </style>
+    <style data-emotion="css qitewx" data-s="">
+        .css-qitewx {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            position: relative;
+            left: 50%;
+            will-change: transform;
+            -webkit-transition: -webkit-transform 0.5s;
+            transition: transform 0.5s;
+            -webkit-transform: translate3d(calc(0% + 0rem), 0, 0);
+            -moz-transform: translate3d(calc(0% + 0rem), 0, 0);
+            -ms-transform: translate3d(calc(0% + 0rem), 0, 0);
+            transform: translate3d(calc(0% + 0rem), 0, 0);
+        }
+
+        @media (min-width: 768px) {
+            .css-qitewx {
+                -webkit-transition: -webkit-transform 0.5s;
+                transition: transform 0.5s;
+                -webkit-transform: translate3d(calc(0% + 0rem), 0, 0);
+                -moz-transform: translate3d(calc(0% + 0rem), 0, 0);
+                -ms-transform: translate3d(calc(0% + 0rem), 0, 0);
+                transform: translate3d(calc(0% + 0rem), 0, 0);
+            }
+        }
+
+        .css-qitewx picture {
+            opacity: 0.3;
+            -webkit-transition: opacity 0.5s;
+            transition: opacity 0.5s;
+        }
+
+        .css-qitewx picture:nth-of-type(1) {
+            opacity: 1;
+        }
+    </style>
+    <style data-emotion="css kxniif" data-s="">
+        .css-kxniif {
+            top: 24rem;
+            margin-right: 1.2rem;
+            object-fit: contain;
+            overflow: hidden;
+            border-radius: 4px;
+            -webkit-transform: translateX(-50%);
+            -moz-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+        }
+
+        @media (max-width: 767px) {
+            .css-kxniif:before {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                height: 30%;
+                background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+            }
+
+            .css-kxniif:after {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                height: 6.5%;
+                margin-bottom: 14%;
+                background-image: url('./img/t_orig.svg');
+                background-repeat: no-repeat;
+                -webkit-background-position: center;
+                background-position: center;
+                -webkit-background-size: auto 100%;
+                background-size: auto 100%;
+            }
+        }
+
+        .css-kxniif img {
+            display: block;
+            width: auto;
+            height: auto;
+            max-width: 68rem;
+            max-height: 50vh;
+            object-fit: contain;
+        }
+
+        @media (min-width: 1200px) {
+            .css-kxniif img {
+                max-width: 80rem;
+            }
+        }
+    </style>
+    <style data-emotion="css vmwtom" data-s="">
+        .css-vmwtom {
+            padding-top: 8.333rem;
+            width: 100%;
+            position: relative;
+            background-color: #000;
+        }
+
+        @media (min-width: 1200px) {
+            .css-vmwtom {
+                padding-top: 10rem;
+            }
+        }
+    </style>
+    <style data-emotion="css 339ze5" data-s="">
+        .css-339ze5 {
+            opacity: 0;
+            white-space: nowrap;
+            -webkit-transition: opacity 0.5s ease-out, -webkit-transform 0.5s ease-out;
+            transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+            -webkit-transform: translateY(0rem);
+            -moz-transform: translateY(0rem);
+            -ms-transform: translateY(0rem);
+            transform: translateY(0rem);
+        }
+
+        .css-339ze5 p {
+            opacity: 0;
+            -webkit-transition: opacity 0.3s ease-out, -webkit-transform 0.3s ease-out;
+            transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+            -webkit-transform: translateY(3rem);
+            -moz-transform: translateY(3rem);
+            -ms-transform: translateY(3rem);
+            transform: translateY(3rem);
+        }
+
+        .in .css-339ze5 {
+            opacity: 1;
+            -webkit-transform: translateY(0rem);
+            -moz-transform: translateY(0rem);
+            -ms-transform: translateY(0rem);
+            transform: translateY(0rem);
+        }
+
+        .in .css-339ze5 p {
+            opacity: 1;
+            -webkit-transition: opacity 0.7s ease-out, -webkit-transform 0.7s ease-out;
+            transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+            -webkit-transform: translateY(0rem);
+            -moz-transform: translateY(0rem);
+            -ms-transform: translateY(0rem);
+            transform: translateY(0rem);
+        }
+
+        .in .css-339ze5 p:nth-of-type(1) {
+            transition-delay: 0.2s;
+        }
+
+        .in .css-339ze5 p:nth-of-type(2) {
+            transition-delay: 0.5s;
+        }
+
+        .in .css-339ze5 p:nth-of-type(3) {
+            transition-delay: 0.7s;
+        }
+
+        .in .css-339ze5 p:nth-of-type(4) {
+            transition-delay: 0.8s;
+        }
+
+        .in .css-339ze5 p:nth-of-type(5) {
+            transition-delay: 0.9s;
+        }
+    </style>
+    <style data-emotion="css u4ctel" data-s="">
+        .css-u4ctel {
+            opacity: 1;
+            margin-top: 3.833rem;
+        }
+
+        @media (min-width: 1200px) {
+            .css-u4ctel {
+                margin-top: 4.167rem;
+            }
+        }
+    </style>
+    <style data-emotion="css 95gcmy" data-s="">
+        .css-95gcmy {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            width: 100%;
+            overflow: hidden;
+            opacity: 0;
+            -webkit-transition: opacity 0.7s ease-out, -webkit-transform 0.7s ease-out;
+            transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+            -webkit-transform: translateY(5rem);
+            -moz-transform: translateY(5rem);
+            -ms-transform: translateY(5rem);
+            transform: translateY(5rem);
+        }
+
+        @-webkit-keyframes firstFlow {
+            0% {
+                -webkit-transform: translate(0);
+                -moz-transform: translate(0);
+                -ms-transform: translate(0);
+                transform: translate(0);
+            }
+
+            100% {
+                -webkit-transform: translate(-100%);
+                -moz-transform: translate(-100%);
+                -ms-transform: translate(-100%);
+                transform: translate(-100%);
+            }
+        }
+
+        @keyframes firstFlow {
+            0% {
+                -webkit-transform: translate(0);
+                -moz-transform: translate(0);
+                -ms-transform: translate(0);
+                transform: translate(0);
+            }
+
+            100% {
+                -webkit-transform: translate(-100%);
+                -moz-transform: translate(-100%);
+                -ms-transform: translate(-100%);
+                transform: translate(-100%);
+            }
+        }
+
+        @-webkit-keyframes secondFlow {
+            0% {
+                -webkit-transform: translate(100%);
+                -moz-transform: translate(100%);
+                -ms-transform: translate(100%);
+                transform: translate(100%);
+            }
+
+            100% {
+                -webkit-transform: translate(0);
+                -moz-transform: translate(0);
+                -ms-transform: translate(0);
+                transform: translate(0);
+            }
+        }
+
+        @keyframes secondFlow {
+            0% {
+                -webkit-transform: translate(100%);
+                -moz-transform: translate(100%);
+                -ms-transform: translate(100%);
+                transform: translate(100%);
+            }
+
+            100% {
+                -webkit-transform: translate(0);
+                -moz-transform: translate(0);
+                -ms-transform: translate(0);
+                transform: translate(0);
+            }
+        }
+
+        .css-95gcmy:last-child {
+            margin-top: 1rem;
+        }
+
+        @media (min-width: 1200px) {
+            .css-95gcmy:last-child {
+                margin-top: 1rem;
+            }
+        }
+
+        .css-95gcmy.in {
+            opacity: 1;
+            -webkit-transform: translateY(0rem);
+            -moz-transform: translateY(0rem);
+            -ms-transform: translateY(0rem);
+            transform: translateY(0rem);
+        }
+    </style>
+    <style data-emotion="css 1lnopzc" data-s="">
+        .css-1lnopzc {
+            position: relative;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            width: 100%;
+            height: 8.5rem;
+        }
+
+        @media (min-width: 1200px) {
+            .css-1lnopzc {
+                height: 15rem;
+            }
+        }
+    </style>
+    <style data-emotion="css jfsb5x" data-s="">
+        .css-jfsb5x {
+            position: absolute;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-animation-duration: 100s;
+            animation-duration: 100s;
+        }
+
+        .css-jfsb5x:first-of-type {
+            -webkit-animation: firstFlow 29.5s linear infinite;
+            animation: firstFlow 29.5s linear infinite;
+        }
+
+        .css-jfsb5x:last-of-type {
+            -webkit-animation: secondFlow 29.5s linear infinite;
+            animation: secondFlow 29.5s linear infinite;
+            -webkit-transform: translate(100%);
+            -moz-transform: translate(100%);
+            -ms-transform: translate(100%);
+            transform: translate(100%);
+        }
+    </style>
+    <style data-emotion="css 67kos4" data-s="">
+        .css-67kos4 {
+            perspective: 300px;
+            margin-left: 1rem;
+        }
+
+        .css-67kos4 picture {
+            position: relative;
+            display: block;
+            width: 15.083rem;
+            height: 8.5rem;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        @media (min-width: 1200px) {
+            .css-67kos4 picture {
+                width: 26.75rem;
+                height: 15rem;
+            }
+        }
+
+        .css-67kos4 picture img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        @media (min-width: 1200px) {
+            .css-67kos4 {
+                margin-left: 1rem;
+            }
+        }
+    </style>
+    <style data-emotion="css 1f2s2ye" data-s="">
+        .css-1f2s2ye {
+            position: absolute;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-animation-duration: 100s;
+            animation-duration: 100s;
+        }
+
+        .css-1f2s2ye:first-of-type {
+            -webkit-animation: firstFlow 25s linear infinite;
+            animation: firstFlow 25s linear infinite;
+        }
+
+        .css-1f2s2ye:last-of-type {
+            -webkit-animation: secondFlow 25s linear infinite;
+            animation: secondFlow 25s linear infinite;
+            -webkit-transform: translate(100%);
+            -moz-transform: translate(100%);
+            -ms-transform: translate(100%);
+            transform: translate(100%);
+        }
+    </style>
+    <style data-emotion="css 1a04utz" data-s="">
+        .css-1a04utz {
+            width: 100%;
+            margin: 3.833rem 0 8.333rem;
+            position: relative;
+            background-color: #000;
+        }
+
+        .css-1a04utz.in {
+            opacity: 1;
+            -webkit-transform: translateY(0rem);
+            -moz-transform: translateY(0rem);
+            -ms-transform: translateY(0rem);
+            transform: translateY(0rem);
+        }
+
+        .css-1a04utz>div {
+            margin: 0 auto;
+            max-width: 0px;
+        }
+
+        @media (min-width: 768px) {
+            .css-1a04utz {
+                margin: 1.667rem 0 8.333rem;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .css-1a04utz {
+                margin: 2.5rem 0 10rem;
+            }
+        }
+    </style>
+    <style data-emotion="css 184d369" data-s="">
+        .css-184d369 {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            background-color: #000;
+            overflow: hidden;
+            padding: 0 1.737rem;
+        }
+
+        @media (min-width: 768px) {
+            .css-184d369 {
+                padding: 0 17.4rem;
+            }
+        }
+    </style>
+    <style data-emotion="css c1jhl3" data-s="">
+        .css-c1jhl3 {
+            height: 101vw;
+        }
+    </style>
+    <style data-emotion="css 1007cr8" data-s="">
+        .css-1007cr8 {
+            display: block;
+            width: 100%;
+            margin: 3.833rem auto 0rem;
+            pointer-events: none;
+            height: 101vw;
+        }
+
+        @media (min-width: 768px) {
+            .css-1007cr8 {
+                width: 39.1vw;
+                height: 44.6vw;
+                margin: 3.5rem auto 0;
+                max-width: 39.1rem;
+                max-height: 44.6rem;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .css-1007cr8 {
+                margin: 3.833rem auto 0;
+            }
+        }
+    </style>
+    <style data-emotion="css 1ueu4i2 animation-10cuzi3" data-s="">
+        .css-1ueu4i2 {
+            position: absolute;
+            width: 94.4vw;
+            height: 25.6vw;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            opacity: 0;
+        }
+
+        .css-1ueu4i2.show {
+            -webkit-animation: animation-10cuzi3 0.4s 0.7s forwards;
+            animation: animation-10cuzi3 0.4s 0.7s forwards;
+        }
+
+        @media (min-width: 768px) {
+            .css-1ueu4i2 {
+                width: 44.1vw;
+                height: 12.3vw;
+                bottom: 0;
+                max-width: 44.417rem;
+                max-height: 12.333rem;
+            }
+        }
+
+        @-webkit-keyframes animation-10cuzi3 {
+            0% {
+                opacity: 0;
+                -webkit-transform: translateY(60px);
+                -moz-transform: translateY(60px);
+                -ms-transform: translateY(60px);
+                transform: translateY(60px);
+            }
+
+            100% {
+                opacity: 1;
+                -webkit-transform: translateY(0);
+                -moz-transform: translateY(0);
+                -ms-transform: translateY(0);
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes animation-10cuzi3 {
+            0% {
+                opacity: 0;
+                -webkit-transform: translateY(60px);
+                -moz-transform: translateY(60px);
+                -ms-transform: translateY(60px);
+                transform: translateY(60px);
+            }
+
+            100% {
+                opacity: 1;
+                -webkit-transform: translateY(0);
+                -moz-transform: translateY(0);
+                -ms-transform: translateY(0);
+                transform: translateY(0);
+            }
+        }
+    </style>
+    <style data-emotion="css 5brn51" data-s="">
+        .css-5brn51 {
+            width: 100%;
+            height: 100%;
+            padding-top: 10rem;
+            position: relative;
+            background-color: #000;
+            overflow: hidden;
+            padding: 9.167rem 1.737rem 0;
+        }
+
+        @media (min-width: 768px) {
+            .css-5brn51 {
+                padding: 8.333rem 17.4rem 0;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .css-5brn51 {
+                padding: 8.333rem 0 0;
+            }
+        }
+    </style>
+    <style data-emotion="css noo45w" data-s="">
+        .css-noo45w {
+            margin-top: 0.333rem;
+        }
+    </style>
+    <style data-emotion="css 15m3h0w" data-s="">
+        .css-15m3h0w {
+            font-size: 1.167rem;
+            font-weight: normal;
+            text-align: center;
+            color: #a3a3a3;
+            margin-top: 0.833rem;
+            margin-top: 0.333rem;
+        }
+
+        @media (min-width: 1200px) {
+            .css-15m3h0w {
+                font-size: 1.417rem;
+                opacity: 0.64;
+                margin-top: 0.667rem;
+            }
+        }
+    </style>
+    <style data-emotion="css vvlrkw" data-s="">
+        .css-vvlrkw {
+            height: 76vw;
+        }
+    </style>
+    <style data-emotion="css 1jw59ki" data-s="">
+        .css-1jw59ki {
+            display: block;
+            width: 100%;
+            height: 100%;
+            margin: 3.833rem auto 11.667rem;
+            pointer-events: none;
+            height: 76vw;
+        }
+
+        @media (min-width: 768px) {
+            .css-1jw59ki {
+                margin: 3.833rem 0 10rem;
+                max-height: 42vw;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .css-1jw59ki {
+                width: 71vw;
+                height: 34.423vw;
+                margin: 3.833rem auto 16.667rem;
+                max-width: 71rem;
+                max-height: 34.423rem;
+            }
+        }
+    </style>
+    <style data-emotion="css 1e32n4" data-s="">
+        .css-1e32n4 {
+            text-align: center;
+            position: relative;
+            background-color: #000;
+            overflow: hidden;
+            margin-bottom: 11.667rem;
+        }
+
+        .css-1e32n4.in {
+            opacity: 1;
+            -webkit-transform: translateY(0rem);
+            -moz-transform: translateY(0rem);
+            -ms-transform: translateY(0rem);
+            transform: translateY(0rem);
+        }
+
+        .css-1e32n4.in>img {
+            opacity: 1;
+            -webkit-transition: opacity 1.7s ease-out, -webkit-transform 1.7s ease-out;
+            transition: opacity 1.7s ease-out, transform 1.7s ease-out;
+            -webkit-transform: translateY(0rem);
+            -moz-transform: translateY(0rem);
+            -ms-transform: translateY(0rem);
+            transform: translateY(0rem);
+        }
+
+        .css-1e32n4.in>h2 {
+            opacity: 1;
+            -webkit-transition: opacity 1.7s ease-out, -webkit-transform 1.7s ease-out;
+            transition: opacity 1.7s ease-out, transform 1.7s ease-out;
+            -webkit-transform: translateY(0rem);
+            -moz-transform: translateY(0rem);
+            -ms-transform: translateY(0rem);
+            transform: translateY(0rem);
+        }
+
+        @media (min-width: 1200px) {
+            .css-1e32n4 {
+                margin-bottom: 16.667rem;
+            }
+        }
+    </style>
+    <style data-emotion="css 16vky69" data-s="">
+        .css-16vky69 {
+            width: 10.899rem;
+            height: 4.23rem;
+            object-fit: contain;
+        }
+
+        @media (min-width: 768px) {
+            .css-16vky69 {
+                width: 14.083rem;
+                height: 5.466rem;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .css-16vky69 {
+                width: 16.349rem;
+                height: 6.345rem;
+            }
+        }
+    </style>
+    <style data-emotion="css nzwq3t" data-s="">
+        .css-nzwq3t {
+            font-size: 2rem;
+            font-weight: bold;
+            line-height: 2.5rem;
+            margin-top: 1.27rem;
+        }
+
+        @media (min-width: 768px) {
+            .css-nzwq3t {
+                font-size: 2.5rem;
+                margin-top: 1.775rem;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .css-nzwq3t {
+                font-size: 3rem;
+                line-height: 1.06;
+                margin-top: 1.989rem;
+            }
+        }
+    </style>
+    <style data-emotion="css 1guu63f" data-s="">
+        .css-1guu63f {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            width: 22.5rem;
+            height: 4.083rem;
+            margin: 3rem auto 0;
+            background-color: #ff153c;
+            color: #fff;
+            font-size: 1.333rem;
+            font-weight: bold;
+            border-radius: 4px;
+        }
+
+        @media (min-width: 768px) {
+            .css-1guu63f {
+                width: 24.5rem;
+                height: 4.083rem;
+                font-size: 1.25rem;
+                margin: 2.417rem auto 0;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .css-1guu63f {
+                width: 28.667rem;
+                height: 4.667rem;
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+    <style data-emotion="css xndyhg" data-s="">
+        .css-xndyhg {
+            position: relative;
+            background-color: #000;
+            padding-left: 1.333rem;
+            padding-right: 1.333rem;
+        }
+
+        @media (min-width: 768px) {
+            .css-xndyhg {
+                padding-left: 3.888rem;
+                padding-right: 3.888rem;
+            }
+        }
+    </style>
+    <style data-emotion="css yixy2u" data-s="">
+        .css-yixy2u {
+            text-align: center;
+            font-size: 2.833rem;
+            font-weight: bold;
+            color: #fff;
+            padding-bottom: 3.333rem;
+        }
+
+        @media (min-width: 1200px) {
+            .css-yixy2u {
+                font-size: 3.25rem;
+            }
+        }
+    </style>
+    <style data-emotion="css fjadhr" data-s="">
+        .css-fjadhr {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            margin-top: 5.333rem;
+        }
+    </style>
+    <style data-emotion="css 16heroq" data-s="">
+        .css-16heroq {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            color: #000;
+            background-color: #dedede;
+            width: 100%;
+            height: 4.9rem;
+            font-weight: bold;
+            font-size: 1.333rem;
+            border-radius: 4px;
+        }
+
+        @media (min-width: 768px) {
+            .css-16heroq {
+                width: 28.667rem;
+                height: 4.667rem;
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+    <style>
+        .foot{
+            color:white;
+            margin-left:43px;
+            opacity:0.4;
+        }
+        .notice{
+            font-size:2.6vh;
+            margin-right:3.5%;
+            letter-spacing:0.1vh;
+        }
+        .footerHr{
+            border:none;
+            height:0.5px;
+            opacity:0.4;
+            background-color:white;
+            margin-top:2%;
+            margin-bottom:1.5%
+        }
+        .shortcut{
+            float: right;
+        }
+        .listInfo {
+            padding-left: 0px;
+            font-size:2.6vh;
+        }
+        .infoMenu{
+            margin-right:1.9%;
+            list-style-type: none;
+            display: inline;
+        }
+        .infoMenu>span {
+            font-weight:bold;
+        }
+        .infoCorp {
+            font-size:2.2vh;
+            font-weight:0;
+            letter-spacing:0.1vh;
+            line-height:4vh;
+        }
+        .infoCorp>span{
+            text-decoration:none;
+            border-bottom:0.3vh solid white;
+            padding-bottom:0%;
+        }
+        .snsIcon{
+            list-style-type: none;
+            display: inline;
+            padding-left: 0px;
+        
+        }
+        .snsIcon li {
+            margin-top:16vh;
+            margin-right:2.5vh;
+        
+        }
+
+        .youtube {
+            width: 3%;
+            height: 3%;
+            margin-top:2.8vh;
+            margin-bottom:2vh;
+        }
+        .instagram {
+            width: 3%;
+            height: 3%;
+            margin-top:2.8vh;
+            margin-bottom:2vh;
+        }
+        .twitter {
+            width: 3%;
+            height: 3%;
+            margin-top:2.8vh;
+            margin-bottom:2vh;
+        }
+        .facebook {
+            width: 3%;
+            height: 3%;
+            margin-top:2.8vh;
+            margin-bottom:2vh;
+        }
+        .sns1 {
+            display: inline;
+        }
+        .sns2{
+            display: inline;
+        }
+        .sns3{
+            display: inline;
+        }
+        .sns4{
+            display: inline;
+        }
+        .info {
+            display: inline-block;
+
+        }
+        .copyright{
+            letter-spacing:0.2vh;
+            font-weight:100;
+            margin-bottom:21.5vh;
+        }
+    </style>
+    <style data-emotion="css" data-s=""></style>
+    <link as="script" rel="prefetch" href="./_next/static/chunks/9345-0fc993d09c6d5c33a3a9.js">
+    <link as="script" rel="prefetch" href="./_next/static/chunks/pages/index-07127de533895725028f.js">
+</head>
+
+<body>
+    <div id="__next">
+        <header class="wrap_padding css-owp87e ebuv48n5"><a href="file:///D:/">
+                <h1 class="css-k3xc ebuv48n4">홈</h1>
+            </a></header>
+        <main class="is-desktop css-1jodgij e1qrue0w0">
+            <div class="player-wrap css-15lsyhj e4j8cym1">
+                <div class="player" tabindex="-1"></div>
+            </div>
+            <section class="contents_wrap">
+                <div class="css-1n5b6s6 e1bav4i342">
+                    <section id="scroll-section-0" class="css-a1gq0t e1bav4i340">
+                        <div class="message-title css-1orpbgm e1bav4i339">
+                            <p class="message-1 css-1lg8zm7 e1bav4i338">티빙 오리지널 콘텐츠,</p>
+                            <p class="message-2 css-1da1wu1 e1bav4i338">방송, 영화, 해외시리즈까지!</p>
+                            <p class="message-3 css-z4df8f e1bav4i338">재미를 플레이해보세요.</p>
+                            <p class="message-4 css-17elym1 e1bav4i336">간편하게 가입하고, 원하실 때 해지할 수 있어요.</p><button type="button" onclick="location.href='main.html'" class="css-1tu6dos e1bav4i337">티빙 시작하기</button>
+                        </div>
+                    </section>
+                    <section id="scroll-section-1" class="css-1hkaz2s e1bav4i341 first in" style="opacity: 0.000615266;">
+                        <div class="content-wrap" style="transform: translateY(-91.4947px);">
+                            <div class="message-title css-31fi7l e1bav4i325">
+                                <p class="css-16hdlwe e1bav4i324">티빙에만 있는 재미</p>
+                                <p class="css-auk98b e1bav4i332">오리지널 콘텐츠를 만나보세요!</p>
+                                <p class="css-xv94ka e1bav4i323">차별화된 웰메이드 오리지널 콘텐츠</p>
+                            </div>
+                            <section class="swipe-list-wrap css-d3iq8i eu3yg062 first in">
+                                <div class="swipe css-1egs7zv eu3yg061" data-width="100">
+                                    <picture class="css-kxniif eu3yg060">
+                                        <source media="(min-width: 768px)" srcset="./img/onboarding/1920-x-1080.webp, ./img/onboarding/1920-x-1080@2x.webp 2x, ./img/onboarding/1920-x-1080@3x.webp 3x" type="image/webp">
+                                        <source media="(min-width: 768px)" srcset="./img/onboarding/1920-x-1080.jpg, ./img/onboarding/1920-x-1080@2x.jpg 2x, ./img/onboarding/1920-x-1080@3x.jpg 3x"><img src="./img/onboarding/1.jpg" alt="내과 박원장"></picture>
+                                    <picture class="css-kxniif eu3yg060">
+                                        <source media="(min-width: 768px)" srcset="./img/onboarding/4-1920-x-1080.webp, ./img/onboarding/4-1920-x-1080@2x.webp 2x, ./img/onboarding/4-1920-x-1080@3x.webp 3x" type="image/webp">
+                                        <source media="(min-width: 768px)" srcset="./img/onboarding/4-1920-x-1080.jpg, ./img/onboarding/4-1920-x-1080@2x.jpg 2x, ./img/onboarding/4-1920-x-1080@3x.jpg 3x"><img src="./img/onboarding/2.jpg" alt="술꾼도시여자들"></picture>
+                                    <picture class="css-kxniif eu3yg060">
+                                        <source media="(min-width: 768px)" srcset="./img/onboarding/2-1920-x-1080.webp, ./img/onboarding/2-1920-x-1080@2x.webp 2x, ./img/onboarding/2-1920-x-1080@3x.webp 3x" type="image/webp">
+                                        <source media="(min-width: 768px)" srcset="./img/onboarding/2-1920-x-1080.jpg, ./img/onboarding/2-1920-x-1080@2x.jpg 2x, ./img/onboarding/2-1920-x-1080@3x.jpg 3x"><img src="./img/onboarding/3.jpg" alt="여고추리반 시즌2"></picture>
+                                    <picture class="css-kxniif eu3yg060">
+                                        <source media="(min-width: 768px)" srcset="./img/onboarding/3-1920-x-1080.webp, ./img/onboarding/3-1920-x-1080@2x.webp 2x, ./img/onboarding/3-1920-x-1080@3x.webp 3x" type="image/webp">
+                                        <source media="(min-width: 768px)" srcset="./img/onboarding/3-1920-x-1080.jpg, ./img/onboarding/3-1920-x-1080@2x.jpg 2x, ./img/onboarding/3-1920-x-1080@3x.jpg 3x"><img src="./img/onboarding/4.jpg" alt="환승연애"></picture>
+                                </div>
+                            </section>
+                        </div>
+                    </section>
+                    <section id="scroll-section-2" class="css-vmwtom e1bav4i334 first in">
+                        <div class="message-title css-339ze5 e1bav4i325">
+                            <p class="css-16hdlwe e1bav4i324">내가 찾던 재미</p>
+                            <p class="css-auk98b e1bav4i332">보고 싶은 콘텐츠를 발견하세요!</p>
+                            <p class="css-xv94ka e1bav4i323">최신, 인기 TV프로그램,영화,해외시리즈</p>
+                        </div>
+                        <div class="flow-scene-wrap css-u4ctel e1ftktlz2">
+                            <div class="flow-scene-first css-95gcmy e1ftktlz7 first in">
+                                <div class="css-1lnopzc e1ftktlz6">
+                                    <ul class="css-jfsb5x e1ftktlz4">
+                                        <li class="css-67kos4 e1ftktlz5">
+                                            <picture class="loaded">
+                                                <source srcset="https://image.tving.com/upload/cms/caip/CAIP1500/P000643144.jpg/dims/resize/F_webp,0" type="image/webp"><img class="loaded" src="./img/onboarding/P000643144.jpg" alt="포스터 이미지"></picture>
+                                        </li>
+                                        <li class="css-67kos4 e1ftktlz5">
+                                            <picture class="loaded">
+                                                <source srcset="https://image.tving.com/upload/cms/caip/CAIP1500/P001541382.jpg/dims/resize/F_webp,0" type="image/webp"><img class="loaded" src="./img/onboarding/P001541382.jpg" alt="포스터 이미지"></picture>
+                                        </li>
+                                        <li class="css-67kos4 e1ftktlz5">
+                                            <picture class="loaded">
+                                                <source srcset="https://image.tving.com/upload/cms/caip/CAIP1500/P001541095.jpg/dims/resize/F_webp,0" type="image/webp"><img class="loaded" src="./img/onboarding/P001541095.jpg" alt="포스터 이미지"></picture>
+                                        </li>
+                                        <li class="css-67kos4 e1ftktlz5">
+                                            <picture class="loaded">
+                                                <source srcset="https://image.tving.com/upload/cms/caip/CAIP1500/P001542142.jpg/dims/resize/F_webp,0" type="image/webp"><img class="loaded" src="./img/onboarding/P001542142.jpg" alt="포스터 이미지"></picture>
+                                        </li>
+                                        <li class="css-67kos4 e1ftktlz5">
+                                            <picture class="loaded">
+                                                <source srcset="https://image.tving.com/upload/cms/caim/CAIM0400/M000362138.jpg/dims/resize/F_webp,0" type="image/webp"><img class="loaded" src="./img/onboarding/M000362138.jpg" alt="포스터 이미지"></picture>
+                                        </li>
+                                    </ul>
+                                    <ul class="css-jfsb5x e1ftktlz4">
+                                        <li class="css-67kos4 e1ftktlz5">
+                                            <picture class="loaded">
+                                                <source srcset="https://image.tving.com/upload/cms/caip/CAIP1500/P000643144.jpg/dims/resize/F_webp,0" type="image/webp"><img class="loaded" src="./img/onboarding/P000643144.jpg" alt="포스터 이미지"></picture>
+                                        </li>
+                                        <li class="css-67kos4 e1ftktlz5">
+                                            <picture class="loaded">
+                                                <source srcset="https://image.tving.com/upload/cms/caip/CAIP1500/P001541382.jpg/dims/resize/F_webp,0" type="image/webp"><img class="loaded" src="./img/onboarding/P001541382.jpg" alt="포스터 이미지"></picture>
+                                        </li>
+                                        <li class="css-67kos4 e1ftktlz5">
+                                            <picture class="loaded">
+                                                <source srcset="https://image.tving.com/upload/cms/caip/CAIP1500/P001541095.jpg/dims/resize/F_webp,0" type="image/webp"><img class="loaded" src="./img/onboarding/P001541095.jpg" alt="포스터 이미지"></picture>
+                                        </li>
+                                        <li class="css-67kos4 e1ftktlz5">
+                                            <picture class="loaded">
+                                                <source srcset="https://image.tving.com/upload/cms/caip/CAIP1500/P001542142.jpg/dims/resize/F_webp,0" type="image/webp"><img class="loaded" src="./img/onboarding/P001542142.jpg" alt="포스터 이미지"></picture>
+                                        </li>
+                                        <li class="css-67kos4 e1ftktlz5">
+                                            <picture class="loaded">
+                                                <source srcset="https://image.tving.com/upload/cms/caim/CAIM0400/M000362138.jpg/dims/resize/F_webp,0" type="image/webp"><img class="loaded" src="./img/onboarding/M000362138.jpg" alt="포스터 이미지"></picture>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="flow-scene-second css-95gcmy e1ftktlz7 first in">
+                                <div class="css-1lnopzc e1ftktlz6">
+                                    <ul class="css-1f2s2ye e1ftktlz3">
+                                        <li class="css-67kos4 e1ftktlz5">
+                                            <picture class="loaded">
+                                                <source srcset="https://image.tving.com/upload/cms/caip/CAIP1500/P001543077.jpg/dims/resize/F_webp,0" type="image/webp"><img class="loaded" src="./img/onboarding/P001543077.jpg" alt="포스터 이미지"></picture>
+                                        </li>
+                                        <li class="css-67kos4 e1ftktlz5">
+                                            <picture class="loaded">
+                                                <source srcset="https://image.tving.com/upload/cms/caip/CAIP1500/P001543232.jpg/dims/resize/F_webp,0" type="image/webp"><img class="loaded" src="./img/onboarding/P001543232.jpg" alt="포스터 이미지"></picture>
+                                        </li>
+                                        <li class="css-67kos4 e1ftktlz5">
+                                            <picture class="loaded">
+                                                <source srcset="https://image.tving.com/upload/cms/caip/CAIP1500/P001479830.png/dims/resize/F_webp,0" type="image/webp"><img class="loaded" src="./img/onboarding/P001479830.png" alt="포스터 이미지"></picture>
+                                        </li>
+                                        <li class="css-67kos4 e1ftktlz5">
+                                            <picture class="loaded">
+                                                <source srcset="https://image.tving.com/upload/cms/caim/CAIM0400/M000364762.jpg/dims/resize/F_webp,0" type="image/webp"><img class="loaded" src="./img/onboarding/M000364762.jpg" alt="포스터 이미지"></picture>
+                                        </li>
+                                        <li class="css-67kos4 e1ftktlz5">
+                                            <picture class="loaded">
+                                                <source srcset="https://image.tving.com/upload/cms/caip/CAIP1500/P001506665.jpg/dims/resize/F_webp,0" type="image/webp"><img class="loaded" src="./img/onboarding/P001506665.jpg" alt="포스터 이미지"></picture>
+                                        </li>
+                                    </ul>
+                                    <ul class="css-1f2s2ye e1ftktlz3">
+                                        <li class="css-67kos4 e1ftktlz5">
+                                            <picture class="loaded">
+                                                <source srcset="https://image.tving.com/upload/cms/caip/CAIP1500/P001543077.jpg/dims/resize/F_webp,0" type="image/webp"><img class="loaded" src="./img/onboarding/P001543077.jpg" alt="포스터 이미지"></picture>
+                                        </li>
+                                        <li class="css-67kos4 e1ftktlz5">
+                                            <picture class="loaded">
+                                                <source srcset="https://image.tving.com/upload/cms/caip/CAIP1500/P001543232.jpg/dims/resize/F_webp,0" type="image/webp"><img class="loaded" src="./img/onboarding/P001543232.jpg" alt="포스터 이미지"></picture>
+                                        </li>
+                                        <li class="css-67kos4 e1ftktlz5">
+                                            <picture class="loaded">
+                                                <source srcset="https://image.tving.com/upload/cms/caip/CAIP1500/P001479830.png/dims/resize/F_webp,0" type="image/webp"><img class="loaded" src="./img/onboarding/P001479830.png" alt="포스터 이미지"></picture>
+                                        </li>
+                                        <li class="css-67kos4 e1ftktlz5">
+                                            <picture class="loaded">
+                                                <source srcset="https://image.tving.com/upload/cms/caim/CAIM0400/M000364762.jpg/dims/resize/F_webp,0" type="image/webp"><img class="loaded" src="./img/onboarding/M000364762.jpg" alt="포스터 이미지"></picture>
+                                        </li>
+                                        <li class="css-67kos4 e1ftktlz5">
+                                            <picture class="loaded">
+                                                <source srcset="https://image.tving.com/upload/cms/caip/CAIP1500/P001506665.jpg/dims/resize/F_webp,0" type="image/webp"><img class="loaded" src="./img/onboarding/P001506665.jpg" alt="포스터 이미지"></picture>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="scroll-section-3" width="1318.4" class="css-k839ku e1bav4i333 first in"></section>
+                    <section id="scroll-section-4" class="css-184d369 e1bav4i331 first in">
+                        <div class="message-title css-339ze5 e1bav4i325">
+                            <p class="css-16hdlwe e1bav4i324">똑똑하게 보는 재미</p>
+                            <p class="css-auk98b e1bav4i332">최신 방송을 가장 빠르고 간편하게 시청하세요!</p>
+                            <p class="css-xv94ka e1bav4i323">실시간TV,퀵VOD,타임머신 기능으로 기다리지말고 편리하게 시청</p>
+                        </div><video src="./video/section_4.mp4" type="video/mp4" playsinline="" loop="" class="css-1007cr8 e1bav4i316 first in"></video><img src="./img/quick-vod@2x.png" class="section-4-video css-1ueu4i2 e1bav4i34 show" alt="똑똑하게 보는 재미 소개 영상">
+                    </section>
+                    <section id="scroll-section-5" class="css-5brn51 e1bav4i330 first in">
+                        <div class="message-title css-339ze5 e1bav4i325">
+                            <p class="css-16hdlwe e1bav4i324">함께 즐기는 재미</p>
+                            <p class="css-auk98b e1bav4i332">다양한 기기로 즐겨보세요!</p>
+                            <p class="css-xv94ka e1bav4i323">스마트폰,태블릿,PC,TV,크롬캐스트에서 시청</p>
+                            <p class="css-15m3h0w e1bav4i323">최대4명의 지인들과 함께 구독</p>
+                        </div>
+                        <video src="./video/section_5.mp4" type="video/mp4" playsinline="" loop="" class="css-1jw59ki e1bav4i315"></video>
+                    </section>
+                    <div id="scroll-section-6" class="css-1e32n4 e1bav4i327 first"><img src="./img/no-1-k-tving.svg" alt="티빙 아이콘" class="css-16vky69 e1bav4i329">
+                        <h2 class="css-nzwq3t e1bav4i328">지금 시작해보세요</h2><button type="button" onclick="location.href='main.html'" class="css-1guu63f e1bav4i314">티빙 시작하기</button>
+                    </div>
+                    <div id="scroll-section-6" class="css-xndyhg e1bav4i326">
+                        <p class="css-yixy2u e1bav4i313">자주 찾는 질문</p>
+                        <div>
+                            <li class="css-c9qruj e1bav4i311"><input type="checkbox" id="faq-18200" name="check" class="css-txpcsx e1bav4i37"><label for="faq-18200" class="css-xlc5ux e1bav4i310"><span class="css-11j78sg e1bav4i33">티빙 회원가입 방법이 궁금해요.</span></label>
+                                <div class="css-kg6wc6 e1bav4i39">
+                                    <p class="css-14fewbl e1bav4i38"><span>TVING 회원가입은 TVING ID, SNS ID, CJ ONE ID를 통해 가입이 가능합니다.<br></span><span><br></span><span>■ 회원가입 ID 종류 <br></span><span>1. TVING ID : TVING에서만 사용하는 TVING 전용 ID <br></span><span>2. SNS ID : 사용하시는 SNS (네이버, 카카오, 페이스북, 트위터, Apple)의 계정을 연동하여 가입하는 ID <br></span><span>3. CJ ONE ID : CJ ONE 통합 멤버십 ID <br></span><span><br></span><span>■ 회원가입 방법 <br></span><span>1. WEB : 티빙 시작하기 → TVING 아이디, CJ ONE 아이디, SNS 아이디 (네이버, 카카오, 페이스북, 트위터, Apple) 중 1개 선택 → 회원가입 <br></span><span>2. APP : 티빙 시작하기 → TVING 아이디, CJ ONE 아이디, SNS 아이디 (네이버, 카카오, 페이스북, 트위터, Apple) 중 1개 선택 → 회원가입<br></span></p>
+                                </div>
+                            </li>
+                            <li class="css-c9qruj e1bav4i311"><input type="checkbox" id="faq-17106" name="check" class="css-txpcsx e1bav4i37"><label for="faq-17106" class="css-xlc5ux e1bav4i310"><span class="css-11j78sg e1bav4i33">티빙 로그인 방법이 궁금해요.</span></label>
+                                <div class="css-kg6wc6 e1bav4i39">
+                                    <p class="css-14fewbl e1bav4i38"><span>TVING WEB과 APP은 아래와 같은 방법으로 로그인이 가능합니다.<br></span><span><br></span><span>■ TVING 로그인 방법<br></span><span>1) 티빙 WEB/APP 접속<br></span><span>2) '티빙 시작하기' 버튼 클릭<br></span><span>3) 계정 선택화면에서 회원가입하신 계정 유형 선택<br></span><span>4) 아이디, 비밀번호 입력 후 '로그인하기' 버튼 클릭<br></span><span><br></span><span>혹시 일치하는 회원정보가 없다는 알림 메시지가 나오신다면 아래 사항을 확인하여 주세요. <br></span><span><br></span><span>■ TVING 로그인 안될 시 조치 방법<br></span><span>1) WEB 브라우저 또는 APP 좌측 상단의 '뒤로가기'를 클릭하여 계정 유형 선택 화면으로 이동<br></span><span>2) 회원가입한 유형을 다시 확인하여 선택<br></span><span>- CJ ONE 통합회원이신 경우 'CJ ONE으로 시작하기' 선택 (제일 밑에 위치)<br></span><span>- TVING ID로 가입하신 경우 'TVING ID로 시작하기' 선택<br></span><span>- 네이버, 카카오 등 SNS 연동 계정으로 가입하신 경우 '각 SNS로 시작하기' 선택<br></span><span>3) 아이디, 비밀번호 입력 후 '로그인하기' 버튼 클릭하여 로그인<br></span><span><br></span><span>* 'TVING ID'로 로그인 시도하셨는데 일치하는 회원정보가 없다면 먼저 'CJ ONE으로 시작하기'를 선택하여 확인을 부탁드립니다.<br></span><span>* 아이디가 이메일 형태의 계정인데 'TVING ID'로 로그인이 안되시는 경우 SNS 연동 회원일 수 있으며, 네이버, 카카오 등 '각 SNS로 시작하기'를 선택하여 확인을 부탁드립니다. <br></span><span>* 계정 유형을 맞게 선택하신 경우 '아이디 찾기', '비밀번호 찾기'를 진행해 주세요.<br></span><span><br></span><span>지속해서 로그인이 되지 않으시는 경우 1:1 게시판 문의 또는 tving@cj.net 으로 문의해 주시면,<br></span><span>신속하게 가입하신 계정 확인하여 답변드리겠습니다.<br></span><span><br></span></p>
+                                </div>
+                            </li>
+                            <li class="css-c9qruj e1bav4i311"><input type="checkbox" id="faq-17105" name="check" class="css-txpcsx e1bav4i37"><label for="faq-17105" class="css-xlc5ux e1bav4i310"><span class="css-11j78sg e1bav4i33">티빙 이용권 별 혜택이 궁금해요.</span></label>
+                                <div class="css-kg6wc6 e1bav4i39">
+                                    <p class="css-14fewbl e1bav4i38"><span>티빙 이용권은 베이직, 스탠다드, 프리미엄 이용권으로 구성이 되어 있으며, <br></span><span>네이버 플러스 멤버쉽 가입 후, 디지털 서비스에서 티빙을 선택하시면 이용하실 수 있는 방송 무제한 이용권도 준비되어 있습니다. <br></span><span><br></span><span>이용권 별 혜택은 다음과 같습니다. <br></span><span><br></span><span>※ 티빙 이용권 <br></span><span>1) 베이직 이용권 <br></span><span>- 실시간 + TV프로그램 + 영화(개별구매 제외), 720p HD 화질 이용 가능 (모바일 + PC) <br></span><span>- 동시 시청 1명 <br></span><span><br></span><span>2) 스탠다드 이용권 <br></span><span>- 실시간 + TV프로그램 + 영화(개별구매 제외), 1080p FHD 화질 이용 가능 (모든 디바이스) <br></span><span>- 동시 시청 2명 <br></span><span><br></span><span>3) 프리미엄 이용권 <br></span><span>- 실시간 + TV프로그램 + 영화(개별구매 제외), 1080p FHD(모든 디바이스) + 4K 화질(스마트TV 일부 콘텐츠 한정) 이용 가능 <br></span><span>- 동시 시청 4명 <br></span><span><br></span><span>4) 방송 무제한 (네이버 플러스 멤버십) <br></span><span>- 실시간 + TV 프로그램 + T ONLY 콘텐츠 시청, 720p HD 화질 이용 가능 <br></span><span>- T ORIGINAL 및 월정액 영화 이용 불가<br></span><span>- 동시 시청 1명<br></span></p>
+                                </div>
+                            </li>
+                            <li class="css-c9qruj e1bav4i311"><input type="checkbox" id="faq-17104" name="check" class="css-txpcsx e1bav4i37"><label for="faq-17104" class="css-xlc5ux e1bav4i310"><span class="css-11j78sg e1bav4i33">정기결제 서비스가 궁금해요.</span></label>
+                                <div class="css-kg6wc6 e1bav4i39">
+                                    <p class="css-14fewbl e1bav4i38"><span>정기결제란, 1개월 또는 1년 단위로 정기적으로 자동 결제가 이루어지는 편리한 서비스입니다. <br></span><span>최초 결제시 등록하신 결제수단을 통해서 서비스를 계속 이용하실 수 있도록 정기적으로 결제가 이루어지기 때문에 매월/매년 다시 결제하는 번거로움 없이 지속적으로 티빙 서비스를 이용하실 수 있습니다. <br></span><span><br></span><span>단, 정기결제 이용중 최초 결제시 등록하신 핸드폰/신용카드/네이버페이의 결제 정보가 변경될 경우 서비스가 중지될 수 있으니 참고해 주시기 바랍니다.<br></span></p>
+                                </div>
+                            </li>
+                            <li class="css-c9qruj e1bav4i311"><input type="checkbox" id="faq-17103" name="check" class="css-txpcsx e1bav4i37"><label for="faq-17103" class="css-xlc5ux e1bav4i310"><span class="css-11j78sg e1bav4i33">티빙 오리지널 콘텐츠가 무엇인가요?</span></label>
+                                <div class="css-kg6wc6 e1bav4i39">
+                                    <p class="css-14fewbl e1bav4i38"><span>T ORIGINAL은 TVING에서 자체 제작한 콘텐츠를 의미합니다. <br></span><span><br></span><span>주요 콘텐츠는 많은 고객님들께서 사랑해주셨던 [환승연애], [술꾼도시 여자들], [신서유기 스페셜 스프링캠프], [여고추리반] 등이 있으며, T ORIGINAL 콘텐츠의 시즌2 및 신규 콘텐츠를 준비 중에 있으니 앞으로 더 재미있는 티빙을 기대해주시고 많은 이용 부탁드립니다. <br></span></p>
+                                </div>
+                            </li>
+                            <li class="css-c9qruj e1bav4i311"><input type="checkbox" id="faq-17101" name="check" class="css-txpcsx e1bav4i37"><label for="faq-17101" class="css-xlc5ux e1bav4i310"><span class="css-11j78sg e1bav4i33">티빙 오리지널 콘텐츠는 어떤 이용권으로 시청할 수 있나요?</span></label>
+                                <div class="css-kg6wc6 e1bav4i39">
+                                    <p class="css-14fewbl e1bav4i38"><span>T ORIGINAL 콘텐츠는 '베이직, 스탠다드, 프리미엄 이용권'을 보유하셔야 시청이 가능합니다. <br></span><span><br></span><span>네이버플러스 멤버십 방송 무제한 이용권의 경우, ORIGINAL 콘텐츠와 영화 시청이 불가하므로 아래 방법을 참고하시어 베이직, 스탠다드, 프리미엄 이용권으로 업그레이드 신청 후 이용해 주시길 바랍니다.<br></span><span><br></span><span>■ 네이버플러스 멤버십 이용권 업그레이드 방법 <br></span><span>1) PC : TVING WEB → 상단 '프로필 아이콘' → 이용권 → 변경하고자 하는 이용권 선택 → 이용권 변경하러 가기 <br></span><span>2) APP : TVING APP → 상단 '프로필 아이콘' → 네이버플러스 멤버십 변경 → 이용권 변경하러 가기 <br></span><span>3) 네이버플러스 멤버십 : 네이버플러스 멤버십 MY 페이지 → 디지털 콘텐츠+ → TVING 업그레이드신청 <br></span><span><br></span><span>* 업그레이드 이용권 선택 후 정기결제 진행 시, 즉시 혜택 변경됩니다. <br></span><span><br></span><span>추가적으로 T ORIGINAL 콘텐츠의 경우 개별구매로 시청이 불가하오니, TVING 베이직, 스탠다드, 프리미엄 이용권 구매 후 많은 이용 부탁드립니다.<br></span></p>
+                                </div>
+                            </li>
+                            <li class="css-c9qruj e1bav4i311"><input type="checkbox" id="faq-17100" name="check" class="css-txpcsx e1bav4i37"><label for="faq-17100" class="css-xlc5ux e1bav4i310"><span class="css-11j78sg e1bav4i33">모바일 상품권을 구매했는데 어떻게 등록 하나요?</span></label>
+                                <div class="css-kg6wc6 e1bav4i39">
+                                    <p class="css-14fewbl e1bav4i38"><span>모바일 상품권은 11~12자리의 숫자로 구성되며, 쿠폰 등록 메뉴에서 등록하실 수 있습니다. <br></span><span><br></span><span>[모바일 상품권 등록 경로] <br></span><span>① PC : TVING WEB → 로그인 → 상단 '프로필 아이콘' → 쿠폰등록 → 상품권 번호 등록 <br></span><span>② APP : TVING APP → 로그인 → 상단 '프로필 아이콘' → 쿠폰등록 → 상품권 번호 등록 <br></span><span><br></span><span>단, iOS 기기에서는 APP 내 모바일 상품권 및 쿠폰 등록 메뉴를 제공하지 않아, 사파리 등 브라우저에서 TVING 모바일 웹 진입 후 최하단 '쿠폰 등록하기' 메뉴를 통해 등록하실 수 있습니다. <br></span><span><br></span><span>혹시 이미 티빙 상품을 결제하여 이용중이신 경우 모바일 상품권을 추가 등록하실 수 없으며, 현재 사용중인 이용권의 이용기간 만료 후 모바일 상품권을 등록하여 이용하실 수 있습니다.<br></span></p>
+                                </div>
+                            </li>
+                        </div>
+                        <div class="css-fjadhr e1bav4i36"><button type="button" class="css-16heroq e1bav4i35">쿠폰 등록하기</button></div>
+                    </div>
+                </div>
+                <div style="color: #fff;">
+                    hello??
+                </div>
+            </section>
+        </main>
+        <div id="modal-root"></div>
+        <!-- <foot class="foot">
+            <p class="notice">공지사항<span> &nbsp&#91안내&#93Internet Explorer 브라우저 티빙 서비스 지원 종료 안내</span><span class="shortcut"><span>브랜드 바로가기 &nbsp&nbsp&#43</span><span> &nbsp&nbsp | &nbsp&nbsp </span><span> 그룹 계열사 바로가기 &nbsp&nbsp&#43</span></span></p>
+            <hr class="footerHr">
+            <div class="footerInfo">
+               <ul class="listInfo">
+                  <li class="infoMenu">고객센터</li>
+                  <li class="infoMenu">이용약관</li>
+                  <li class="infoMenu"><span>개인정보 처리 방침</span></li>
+                  <li class="infoMenu">청소년 보호정책</li>
+                  <li class="infoMenu">법적고지</li>
+                  <li class="infoMenu">이벤트</li>
+                  <li class="infoMenu">티빙몰 바로가기</li>
+               </ul>
+               <p class="infoCorp">
+                  대표이사:YANG JIEUL &#124 <span>사업자정보확인</span> &#124 개인정보관리책임자:고창남 &#124 사업자등록번호:188-88-01893 &#124 통신판매신고번호:2020-서울마포-3641호<br>
+                  사업장 : 서울 마포구 상암산로 34, DMC디지털큐브 15층(상암동) &#124 호스팅사업자:씨제이올리브네트웍스(주)<br>
+                  <span>고객문의 바로가기</span> &#124 대표메일:tving@cj.net &#124 티빙몰 문의:tving.mall@cj.net &#124 고객센터:1670-1525(평일/주말 09시~18시, 공휴일 휴무)<br>
+                  ENM 시청자 상담실(편성 문의 및 시청자 의견):080-080-0780 &#124 Mnet 고객센터(방송편성문의):1855-1631<br>
+               </p>
+               <ul class="snsIcon">
+                  <li class="sns1"><img class="youtube" src="youtube.png" alt="유튜브"></i></li>
+                  <li class="sns2"><img class="instagram" src="instagram.png" alt="인스타그램"></i></li>
+                  <li class="sns3"><img class="twitter" src="twitter.png" alt="트위터"></i></li>
+                  <li class="sns4"><img class="facebook" src="facebook.png" alt="페이스북"></i></li>
+               </ul>
+               <p class="copyright">Copyright &#169 주식회사 티빙 All right reserved.</p>
+            </div>
+            </foot> -->
+    </div>
+    <script id="__NEXT_DATA__" type="application/json">
+        {
+            "props": {
+                "pageProps": {
+                    "userInfo": {
+                        "userInfoData": null,
+                        "userInfoProfileData": null,
+                        "userInfoPayInfoData": null
+                    },
+                    "userAgent": "Wget/1.14 (linux-gnu)"
+                },
+                "__lang": "ko",
+                "__namespaces": {
+                    "common": {
+                        "gnb": {
+                            "home": {
+                                "title": "홈"
+                            },
+                            "live": {
+                                "title": "실시간",
+                                "head_title": "LIVE | TVING",
+                                "sub": {
+                                    "home": "홈",
+                                    "livetv": "실시간TV",
+                                    "tvingtv": "TVING TV"
+                                }
+                            },
+                            "vod": {
+                                "title": "TV프로그램",
+                                "head_title": "TV프로그램 | TVING"
+                            },
+                            "movie": {
+                                "title": "영화",
+                                "head_title": "영화 | TVING"
+                            },
+                            "my": {
+                                "head_title": "마이티빙 | TVING",
+                                "sub": {
+                                    "watch_history": "시청 내역",
+                                    "purchase_history": "구매 내역",
+                                    "favorite": "찜",
+                                    "reservation_history": "예약 내역",
+                                    "ticket_cash_history": "이용권/캐시 내역",
+                                    "inquiry_history": "문의 내역",
+                                    "vod": "TV프로그램",
+                                    "movie": "영화"
+                                }
+                            },
+                            "membership": {
+                                "head_title": "이용권 | TVING"
+                            },
+                            "policy": {
+                                "title": "약관 및 정책",
+                                "head_title": "약관 및 정책 | TVING",
+                                "sub": {
+                                    "terms": "TVING 이용약관",
+                                    "pay_terms": "유료이용약관",
+                                    "email": "E-mail 무단수집거부",
+                                    "legal": "법적고지",
+                                    "privacy": "개인정보 처리방침",
+                                    "youth": "청소년 보호정책"
+                                }
+                            },
+                            "help": {
+                                "title": "고객센터",
+                                "head_title": "고객센터 | TVING",
+                                "sub": {
+                                    "notice": "공지사항",
+                                    "faq": "FAQ",
+                                    "service_policy": "서비스 정책",
+                                    "qna": "고객문의",
+                                    "refund": "다음 회차 결제 해지",
+                                    "proposal": "제휴/광고/입점 문의"
+                                }
+                            }
+                        },
+                        "community": {
+                            "fan": "찜",
+                            "fanOn": "찜 등록되었습니다.",
+                            "fanOff": "찜 해제되었습니다.",
+                            "share": "공유",
+                            "copyUrl": "콘텐츠의 주소가 복사되었습니다.",
+                            "copyUnavailableBrowser": "복사 기능이 지원되지 않는 브라우저입니다.",
+                            "schedule": "편성표"
+                        },
+                        "title": {
+                            "popular_live": "인기 라이브",
+                            "watchingContents": "님이 시청중인 콘텐츠"
+                        },
+                        "footer": "Copyright © 주식회사 티빙 All right reserved.",
+                        "button": {
+                            "ok": "확인",
+                            "cancel": "취소",
+                            "select_all": "전체선택",
+                            "unselect_all": "전체해제",
+                            "delete": "삭제",
+                            "complete": "완료",
+                            "edit": "편집",
+                            "list": "목록",
+                            "contact_us": "문의하기",
+                            "submit_inquiry": "문의 남기기",
+                            "make_suggestion": "문의 남기기",
+                            "print": "인쇄하기",
+                            "start_tving": "티빙 시작하기",
+                            "play": "시청하기",
+                            "buy_membership": "지금 구독하기",
+                            "buy_contents": "지금 구매하기",
+                            "more_prerelease": "공개예정 더보기",
+                            "watch_app": "모바일 APP으로 보기",
+                            "if_want_more_episodes": "더 많은 회차가 보고싶다면"
+                        },
+                        "content": {
+                            "time": {
+                                "minutes": "분"
+                            },
+                            "season": "시즌",
+                            "count": "개"
+                        },
+                        "my": {
+                            "previous": "이전",
+                            "next": "다음",
+                            "streaming": "스트리밍",
+                            "download": "다운로드",
+                            "period_expired": "기간만료",
+                            "payment": "결제 금액",
+                            "payment_method": "결제 수단",
+                            "registration_date": "등록일",
+                            "purchase_date": "결제일",
+                            "purchase_membership": "이용권 구독하기",
+                            "expire_date": "유효 기간",
+                            "state": "상태",
+                            "division": "구분",
+                            "membership_name": "상품명",
+                            "history": "내역",
+                            "date": "일시",
+                            "use_period": "이용기간",
+                            "title": "제목",
+                            "coupon_price": "쿠폰가",
+                            "notice": {
+                                "be_aware": "알아두세요!",
+                                "watch": "최근 3개월의 시청내역만 표시되며, 종료된 콘텐츠는 노출되지 않습니다.",
+                                "purchase": "구매하신 모든 내역이 표시되며, 서비스 종료된 콘텐츠는 노출되지 않습니다.",
+                                "favorite": "종료된 콘텐츠는 노출되지 않습니다.",
+                                "qna": "문의 사항은 상황에 따라 답변이 지연될 수 있습니다.",
+                                "membership": {
+                                    "one": "정기결제란? 매월 30일 단위로 자동 결제가 이루어지는 서비스를 말합니다.",
+                                    "two": "정기 결제는 언제든 해지 및 결제수단 변경이 가능하나, 결제수단 변경은 신용카드로만 가능합니다. (휴대폰 → 신용카드, 신용카드 → 신용카드)",
+                                    "three": "정기 결제수단을 변경하시면 다음 달 결제일에 변경하신 결제수단으로 정기결제가 진행 됩니다.",
+                                    "four": "구매하신 캐쉬는 구매일로부터 5년간 유효합니다. (단, 이벤트 캐쉬는 지급시 별도 표기일까지 이용 가능합니다.)",
+                                    "five": "구매하신 이용권은 디지털콘텐츠 특성상 미리보기를 제공한 경우 사용시를 개봉의 의미로 판단하여 환불이 불가합니다.",
+                                    "six": "결제 관련 문의는 고객문의 게시판 또는 고객센터(1670-1525)로 문의하시기 바랍니다."
+                                }
+                            },
+                            "watch": {
+                                "delete": "시청 내역이 삭제되었습니다.",
+                                "select": "삭제할 시청내역을 선택해 주세요.",
+                                "no_result": "시청 내역이 없습니다.",
+                                "no_result_program": "시청하신 TV프로그램이 없습니다.",
+                                "no_result_movie": "시청하신 영화가 없습니다."
+                            },
+                            "purchase": {
+                                "delete": "구매 내역이 삭제되었습니다.",
+                                "select": "삭제할 구매내역을 선택해 주세요.",
+                                "no_result": "구매하신 내역이 없습니다.",
+                                "no_result_program": "구매하신 TV프로그램이 없습니다.",
+                                "no_result_movie": "구매하신 영화가 없습니다."
+                            },
+                            "favorite": {
+                                "delete": "찜 내역이 삭제되었습니다.",
+                                "select": "삭제할 찜내역을 선택해 주세요.",
+                                "no_result": "찜 내역이 없습니다.",
+                                "no_result_program": "찜한 TV프로그램이 없습니다.",
+                                "no_result_movie": "찜한 영화가 없습니다."
+                            },
+                            "reserve": {
+                                "delete": "예약 내역이 삭제되었습니다.",
+                                "select": "삭제할 예약내역을 선택해 주세요.",
+                                "no_result": "예약 내역이 없습니다."
+                            },
+                            "membership": {
+                                "membership": "이용권",
+                                "cash": "캐시",
+                                "no_membership": "이용권이 없습니다.",
+                                "no_cash": "캐시내역이 없습니다."
+                            },
+                            "qna": {
+                                "answer_complete": "답변완료",
+                                "in_progress": "처리중",
+                                "give_answer": "답변드립니다.",
+                                "no_result": "문의하신 내역이 없습니다."
+                            }
+                        },
+                        "policy": {
+                            "tving_terms": "TVING 이용약관",
+                            "pay_terms": "유료 이용약관",
+                            "email_rejection": "E-mail 무단 수집 거부",
+                            "legal": "법적고지",
+                            "technical_license": "Technical License",
+                            "privacy": "개인정보 처리방침",
+                            "youth": "청소년 보호정책",
+                            "view_other_versions": "다른버전 보기",
+                            "view_previous_versions": "이전 버전 보기",
+                            "current": "현행"
+                        },
+                        "help": {
+                            "number": "번호",
+                            "title": "제목",
+                            "register_date": "등록일",
+                            "views": "조회수",
+                            "no_next_notice": "다음 글이 없습니다.",
+                            "no_prev_notice": "이전 글이 없습니다.",
+                            "post_operation_policy": "게시물 운영정책",
+                            "post_regulation_policy": "게시물 규제정책",
+                            "post_restoration_policy": "게시물 복원정책",
+                            "id_regulation_policy": "아이디 규제 정책",
+                            "all": "전체",
+                            "member_login": "회원 로그인",
+                            "live": "실시간TV",
+                            "vod": "VOD",
+                            "player": "플레이어",
+                            "mobile": "모바일",
+                            "payment": "요금결제",
+                            "etc": "기타",
+                            "qna_type": {
+                                "use_site": "사이트 이용",
+                                "member_login": "회원/로그인",
+                                "mobile": "모바일",
+                                "price_payment_cancel": "요금/결제/해지신청",
+                                "disability_report": "장애신고",
+                                "content_channel": "콘텐츠/채널",
+                                "event": "이벤트",
+                                "service_offer": "서비스 제안",
+                                "channel_homepage": "채널 홈페이지",
+                                "other": "기타"
+                            },
+                            "wifi": "와이파이",
+                            "mobile_carrier": "통신사",
+                            "info": {
+                                "basic_information": "기본정보",
+                                "name": "이름",
+                                "formal_name": "성명",
+                                "id": "아이디",
+                                "email": "이메일",
+                                "contact": "연락처",
+                                "phone_number": "전화번호",
+                                "inquiry_type": "문의 종류",
+                                "device": "디바이스",
+                                "device_name": "디바이스명",
+                                "browser_name": "브라우저명",
+                                "communication_environment": "통신 환경",
+                                "location": "이용장소",
+                                "hours_of_use": "이용시간",
+                                "content_used": "이용 콘텐츠",
+                                "inquiry_contents": "문의 내용",
+                                "inquiry_title": "문의 제목",
+                                "detail": "상세내용",
+                                "customer_inquiry_answer": "고객 문의 답변"
+                            },
+                            "consent": {
+                                "personal_info_agreement": "개인정보 수집 및 이용 동의",
+                                "restrict_qna_answer": "동의하지 않을 경우 고객 문의 답변에 제한이 있을 수 있습니다.",
+                                "purpose_personal_info": "개인 정보 수집 및 이용목적",
+                                "personal_info_items": "개인 정보 수집항목",
+                                "purpose_personal_info_use": "개인 정보 이용목적",
+                                "consent_info_required": "정보 제공 동의는 필수입니다.",
+                                "consent_qna_required": "개인정보 수집 및 이용 동의 후 1:1 문의 등록이 가능합니다."
+                            },
+                            "cancellation": {
+                                "ask_cancel_subscription": "구독 중인 이용권의 정기결제 해지를 원하시나요?",
+                                "cancel_subscription_info_01": "정기결제 해지는 MY \u003e 나의 이용권에서 신청 가능하며",
+                                "cancel_subscription_info_02": "해지 신청 완료 시, 다음 정기 결제일부터 결제가 진행되지 않습니다.",
+                                "go_cancel_subscription": "정기결제 해지하러 가기"
+                            }
+                        },
+                        "message": {
+                            "actionLogout": "로그아웃 하시겠습니까?",
+                            "moveLoginPage": "로그인 후 사용이 가능합니다.\n로그인 페이지로 이동합니다.",
+                            "logout_relogin": "패스워드가 변경되어 로그아웃됩니다.\n다시 로그인하시겠습니까?",
+                            "checkInsertReserve": "예약하시겠습니까?",
+                            "checkCancelReserve": "예약을 취소하시겠습니까?",
+                            "checkDelete": "삭제하시겠습니까?",
+                            "reserved": "예약되었습니다.",
+                            "reserveCanceled": "예약을 취소하였습니다.",
+                            "agree": "동의합니다."
+                        },
+                        "date": {
+                            "day": {
+                                "0": "일",
+                                "1": "월",
+                                "2": "화",
+                                "3": "수",
+                                "4": "목",
+                                "5": "금",
+                                "6": "토"
+                            },
+                            "time": {
+                                "am": "오전",
+                                "pm": "오후"
+                            }
+                        },
+                        "unit": {
+                            "price": {
+                                "won": "원"
+                            }
+                        }
+                    }
+                }
+            },
+            "page": "/onboarding",
+            "query": {},
+            "buildId": "JfL2-GTd-Fbpp5qGtLsyg",
+            "isFallback": false,
+            "appGip": true,
+            "locale": "ko",
+            "locales": ["ko", "en"],
+            "defaultLocale": "ko",
+            "scriptLoader": []
+        }
+    </script>
+
+
+    <next-route-announcer>
+        <p aria-live="assertive" id="__next-route-announcer__" role="alert" style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap; overflow-wrap: normal;"></p>
+    </next-route-announcer>
+    <script src="./_next/static/chunks/9345-0fc993d09c6d5c33a3a9.js"></script>
+    <script src="./_next/static/chunks/pages/index-07127de533895725028f.js"></script>
+    <next-route-announcer>
+        <p aria-live="assertive" id="__next-route-announcer__" role="alert" style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap; overflow-wrap: normal;"></p>
+    </next-route-announcer>
+
+
+    <next-route-announcer>
+        <p aria-live="assertive" id="__next-route-announcer__" role="alert" style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap; overflow-wrap: normal;"></p>
+    </next-route-announcer>
+    
+</body>
+
+</html>
